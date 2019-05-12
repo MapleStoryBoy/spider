@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数据结构/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/基础/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/基础/filter的使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/基础/lambda表达式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/基础/嵌套的函数定义.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/基础/捕获异常.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/基础/猜数字小游戏.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/基础/递归函数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/基础/高阶函数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/counter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/度量算法的运行时间.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/度量算法的运行时间测试2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/统计指令1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/统计指令2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/集合概览/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/集合概览/集合类型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/CSS选择器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/attrs属性查询.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/text文本.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/关联选择.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/基本用法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/嵌套选择.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/方法选择器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/实例.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/实例2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/按序选择.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,13 +27,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/note.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="208">
-                <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -47,6 +40,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -72,10 +66,22 @@
         <option value="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/统计指令1.py" />
         <option value="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/counter.py" />
         <option value="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/统计指令2.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/实例.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/实例2.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/按序选择.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/test.html" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/基本用法.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/嵌套选择.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/关联选择.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/方法选择器.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/text文本.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/attrs属性查询.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/CSS选择器.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="94" />
     <option name="width" value="1280" />
     <option name="height" value="750" />
   </component>
@@ -94,6 +100,17 @@
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="python爬虫开发与项目实战笔记" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="python爬虫开发与项目实战笔记" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -102,6 +119,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -116,8 +134,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.统计指令2">
-    <configuration name="统计指令1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.CSS选择器">
+    <configuration name="方法选择器" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -125,11 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/统计指令1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/方法选择器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="度量算法的运行时间" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="关联选择" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,11 +164,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/度量算法的运行时间.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/关联选择.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +177,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="度量算法的运行时间测试2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="CSS选择器" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,11 +185,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/度量算法的运行时间测试2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/CSS选择器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,7 +198,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="统计指令2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="attrs属性查询" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,11 +206,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/统计指令2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/attrs属性查询.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,7 +219,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="counter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="text文本" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,11 +227,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/counter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/text文本.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.统计指令2" />
-        <item itemvalue="Python.counter" />
-        <item itemvalue="Python.统计指令1" />
-        <item itemvalue="Python.度量算法的运行时间测试2" />
-        <item itemvalue="Python.度量算法的运行时间" />
+        <item itemvalue="Python.CSS选择器" />
+        <item itemvalue="Python.text文本" />
+        <item itemvalue="Python.attrs属性查询" />
+        <item itemvalue="Python.方法选择器" />
+        <item itemvalue="Python.关联选择" />
       </list>
     </recent_temporary>
   </component>
@@ -246,10 +264,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="750" extended-state="0" />
+    <frame x="-113" y="0" width="1280" height="750" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16521049" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -257,7 +276,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47720364" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -266,6 +285,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.16521049" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.47720364" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/爬虫.md">
@@ -375,10 +413,101 @@
     <entry file="file://$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="208">
-            <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <first_editor relative-caret-position="224">
+            <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/实例.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/实例2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/按序选择.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/嵌套选择.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/基本用法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/方法选择器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/text文本.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/关联选择.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/attrs属性查询.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" lean-forward="true" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/CSS选择器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>
