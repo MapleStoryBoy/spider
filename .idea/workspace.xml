@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/CSS选择器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/attrs属性查询.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/text文本.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/关联选择.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/基本用法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/嵌套选择.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/方法选择器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/实例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/实例2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/按序选择.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/MongoDB存储/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/MongoDB存储/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/MongoDB存储/排序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/MongoDB存储/连接MongoDB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/csv文件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/explore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/以字典形式写入csv文件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/文本存储.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/读取csv文件.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,17 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -77,11 +63,20 @@
         <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/text文本.py" />
         <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/attrs属性查询.py" />
         <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/CSS选择器.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/note.md" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/文本存储.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/csv文件.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/以字典形式写入csv文件.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/读取csv文件.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/MongoDB存储/连接MongoDB.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/MongoDB存储/排序.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/MongoDB存储/note.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="94" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="168" />
+    <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="750" />
   </component>
@@ -93,6 +88,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,13 +105,19 @@
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
               <item name="python爬虫开发与项目实战笔记" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="python爬虫开发与项目实战笔记" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
+              <item name="MongoDB存储" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,8 +136,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CSS选择器">
-    <configuration name="方法选择器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.排序">
+    <configuration name="文本存储" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +145,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/方法选择器.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/文本存储.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="关联选择" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,11 +166,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/MongoDB存储" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/关联选择.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/MongoDB存储/排序.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,7 +179,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CSS选择器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="连接MongoDB" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,11 +187,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/MongoDB存储" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/CSS选择器.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/MongoDB存储/连接MongoDB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,7 +200,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="attrs属性查询" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="csv文件" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,11 +208,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/attrs属性查询.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/csv文件.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,7 +221,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="text文本" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="以字典形式写入csv文件" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -227,11 +229,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/text文本.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/以字典形式写入csv文件.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="读取csv文件" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/读取csv文件.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,11 +265,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.CSS选择器" />
-        <item itemvalue="Python.text文本" />
-        <item itemvalue="Python.attrs属性查询" />
-        <item itemvalue="Python.方法选择器" />
-        <item itemvalue="Python.关联选择" />
+        <item itemvalue="Python.排序" />
+        <item itemvalue="Python.连接MongoDB" />
+        <item itemvalue="Python.csv文件" />
+        <item itemvalue="Python.文本存储" />
       </list>
     </recent_temporary>
   </component>
@@ -264,23 +286,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-113" y="0" width="1280" height="750" extended-state="0" />
-    <editor active="true" />
+    <frame x="168" y="22" width="1280" height="750" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16521049" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25655282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47720364" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6018237" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -306,37 +327,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/爬虫.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="560">
-            <caret line="35" column="102" selection-start-line="35" selection-start-column="102" selection-end-line="35" selection-end-column="102" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/基础/递归函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/基础/猜数字小游戏.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/基础/高阶函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构/基础/嵌套的函数定义.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -423,9 +413,7 @@
     <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/.editorconfig" />
     <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/实例.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -506,8 +494,141 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/.idea/python爬虫开发与项目实战笔记.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/cookies的使用.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/cookie的保存.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/request实例.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/timeout参数.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/需要认证的页面爬取.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/读取本地保存的cookie和使用.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/请求的其它方法.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/响应头.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/urlencode方法构造GET请求.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/爬虫实例/抓取猫眼电影排行.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <caret line="10" column="74" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/pyquery/pyquery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13652">
+          <caret line="265" selection-start-line="265" selection-end-line="265" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/explore.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6911" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/文本存储.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="e#2#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="96">
+            <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/csv文件.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/data2.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/以字典形式写入csv文件.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/读取csv文件.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/MongoDB存储/连接MongoDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/MongoDB存储/排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/MongoDB存储/note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
