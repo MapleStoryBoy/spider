@@ -9,6 +9,7 @@ def get_one_page(url):
         #构造headers
         headers = {
             'User-Agent':'Mozilla/4.0 (compatible; MSIE S.S; Windows NT)',
+
         }
         #response请求
         response = requests.get(url,headers=headers)
