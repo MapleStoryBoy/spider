@@ -8,7 +8,7 @@
 #     https://doc.scrapy.org/en/latest/topics/settings.html
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-
+import os
 BOT_NAME = 'ArticleSpider'
 
 SPIDER_MODULES = ['ArticleSpider.spiders']
@@ -64,9 +64,20 @@ ROBOTSTXT_OBEY = False # robots协议读取
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'ArticleSpider.pipelines.ArticlespiderPipeline': 300,
-#}
+ITEM_PIPELINES = {
+    'ArticleSpider.pipelines.ArticlespiderPipeline': 300,
+    #下载图片处理
+    #'scrapy.pipelines.images.ImagesPipeline':1,
+    'ArticleSpider.pipelines.ArticleImagePipeline':1
+}
+#指定在items字段中寻找image
+IMAGES_URLS_FIELD = "front_image_url"
+#图片的保存路径
+project_dir = os.path.abspath(os.path.dirname(__file__))
+IMAGES_STORE = os.path.join(project_dir,'images')
+
+#IMAGE_MIN_HEIGHT = 100
+#IMAGE_MIN_WIDTH = 100
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
