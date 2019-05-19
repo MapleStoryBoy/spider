@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="" />
+    <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/ArticleSpider/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleSpider/ArticleSpider/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/ArticleSpider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleSpider/ArticleSpider/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/ArticleSpider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleSpider/ArticleSpider/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArticleSpider/ArticleSpider/spiders/jobbole.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArticleSpider/ArticleSpider/spiders/jobbole.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,50 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArticleSpider/ArticleSpider/items.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ArticleSpider/ArticleSpider/spiders/jobbole.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArticleSpider/ArticleSpider/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ArticleSpider/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,16 +83,16 @@
         <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/模拟登录/模拟登录抓取Github.py" />
         <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/main.py" />
         <option value="$PROJECT_DIR$/ArticleSpider/main.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/utils/common.py" />
+        <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/items.py" />
         <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/settings.py" />
         <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/pipelines.py" />
-        <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/utils/common.py" />
         <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/spiders/jobbole.py" />
-        <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/items.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="86" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="493" />
     <option name="width" value="1280" />
     <option name="height" value="750" />
   </component>
@@ -391,14 +354,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="0" width="1280" height="750" extended-state="0" />
+    <frame x="493" y="0" width="1280" height="750" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32883242" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.023828436" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.50151974" side_tool="true" visible="true" weight="0.023828436" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.52887535" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.46960485" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39969605" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -435,21 +398,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/explore.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6911" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/文本存储.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding>
-            <element signature="e#2#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -727,13 +675,6 @@
     <entry file="file://$PROJECT_DIR$/ArticleSpider/ArticleSpider/images/full/5a76634d870517b1f92d5e03b3aa6c2f61d94f9e.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArticleSpider/ArticleSpider/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ArticleSpider/ArticleSpider/utils/common.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -741,37 +682,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ArticleSpider/ArticleSpider/items.py">
+    <entry file="file://$PROJECT_DIR$/ArticleSpider/article.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="-143617" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArticleSpider/articleexporter.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret column="1069656" selection-start-column="1069656" selection-end-column="1069656" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ArticleSpider/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ArticleSpider/ArticleSpider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="106" column="24" lean-forward="true" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ArticleSpider/ArticleSpider/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="-1069">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#193#211#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ArticleSpider/ArticleSpider/spiders/jobbole.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
+        <state relative-caret-position="1104">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArticleSpider/ArticleSpider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>

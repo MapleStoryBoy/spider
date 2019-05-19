@@ -26,5 +26,5 @@ class JobBoleArticleItem(scrapy.Item):
     comment = scrapy.Field()
     fav_nums = scrapy.Field()
     tags = scrapy.Field()
-    #content = scrapy.Field()
+    content = scrapy.Field()
 

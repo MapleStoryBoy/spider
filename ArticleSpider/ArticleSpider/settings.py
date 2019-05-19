@@ -65,10 +65,12 @@ ROBOTSTXT_OBEY = False # robots协议读取
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'ArticleSpider.pipelines.ArticlespiderPipeline': 300,
+    #'ArticleSpider.pipelines.JsonExporterPipeline': 2,
     #下载图片处理
     #'scrapy.pipelines.images.ImagesPipeline':1,
-    'ArticleSpider.pipelines.ArticleImagePipeline':1
+    #'ArticleSpider.pipelines.ArticleImagePipeline':1,
+    'ArticleSpider.pipelines.MysqlTwistedPipeline':1
+
 }
 #指定在items字段中寻找image
 IMAGES_URLS_FIELD = "front_image_url"
@@ -99,3 +101,7 @@ IMAGES_STORE = os.path.join(project_dir,'images')
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+MYSQL_HOST = "127.0.0.1"
+MYSQL_DBNAME = "test2"
+MYSQL_USER = "root"
+MYSQL_PASSWORD = "maple"

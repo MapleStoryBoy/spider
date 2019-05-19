@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-import re,time
+import re,time,datetime
 from scrapy.http import Request
 from urllib import parse
 from ArticleSpider.items import JobBoleArticleItem
@@ -67,16 +67,22 @@ class JobboleSpider(scrapy.Spider):
         tag_list = [element for element in tag_list if not element.strip().endswith("评论")]
         tags = ','.join(tag_list)
 
+
         article_item["url_object_id"] = get_md5(response.url)
         article_item["title"] = title
         article_item["url"] = response.url
+        #转换时间格式，由取得的字符串处理成时间格式，方便存在数据库中
+        try:
+            create_date = datetime.datetime.strftime(create_date,"%Y/%m/%d").date()
+        except Exception as e:
+            create_date = datetime.datetime.now().date()
         article_item["create_date"] = create_date
         article_item["front_image_url"] = [front_image_url]
         article_item["praise_nums"] = praise_nums
         article_item["fav_nums"] = fav_nums
         article_item["comment"] = comment
         article_item["tags"] = tags
-        #article_item["content"] = content
+        article_item["content"] = content
         yield article_item
 
 
