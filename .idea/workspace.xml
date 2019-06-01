@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ArticleSpider/ArticleSpider/utils/zhihu_login_requests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/page1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/page2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/page3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/page4散点图绘制.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/page5绘制条形图.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/page7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/page8绘制直方图.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/page9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/总结和笔记/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/总结和笔记/page6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -129,6 +119,13 @@
               <item name="spider" type="462c0819:PsiDirectoryNode" />
               <item name="数据结构" type="462c0819:PsiDirectoryNode" />
               <item name="数据分析" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+              <item name="数据分析" type="462c0819:PsiDirectoryNode" />
+              <item name="numpy和pandas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,7 +365,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.2820122" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.2820122" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39969605" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
