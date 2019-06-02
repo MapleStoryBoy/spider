@@ -15,6 +15,7 @@ class TiebaSpider():
         for i in range(10):
             url_list.append(self.url_temp.format(i*50))
         return url_list
+        #return [self.url_temp.format(i*50) for i in range(100)]
 
     def parse_url(self,url):#发送请求，获取响应
         print(url)
@@ -39,7 +40,7 @@ class TiebaSpider():
 
 
 if __name__ == '__main__':
-    tieba_spider = TiebaSpider("李毅")
+    tieba_spider = TiebaSpider("lol")
     tieba_spider.run()
 
 
