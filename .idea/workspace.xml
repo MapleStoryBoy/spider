@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/01_try_params.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/02_baidu_tieba.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/page1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,7 +15,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/02_baidu_tieba.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,9 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/text文本.py" />
-        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/attrs属性查询.py" />
-        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/BeautifulSoup使用/CSS选择器.py" />
         <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/note.md" />
         <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/文本存储.py" />
         <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/数据存储/csv文件.py" />
@@ -85,11 +95,14 @@
         <option value="$PROJECT_DIR$/数据结构/数据分析/page7.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/page8绘制直方图.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/page9.py" />
+        <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/page1.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/01_try_params.py" />
+        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/02_baidu_tieba.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="556" />
+    <option name="x" value="807" />
     <option name="width" value="1280" />
     <option name="height" value="748" />
   </component>
@@ -101,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,25 +124,19 @@
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+              <item name="python爬虫开发与项目实战笔记" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
-              <item name="数据分析" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
-              <item name="数据分析" type="462c0819:PsiDirectoryNode" />
-              <item name="numpy和pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="python爬虫开发与项目实战笔记" type="462c0819:PsiDirectoryNode" />
+              <item name="通用爬虫" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,8 +162,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.page9">
-    <configuration name="获取属性" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.02_baidu_tieba">
+    <configuration name="01_try_params" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,11 +171,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/动态渲染网页爬取" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/动态渲染网页爬取/获取属性.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/01_try_params.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,7 +184,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="动作链" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="02_baidu_tieba" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,11 +192,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/动态渲染网页爬取" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/动态渲染网页爬取/动作链.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/02_baidu_tieba.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,7 +226,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="page5绘制条形图" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="page1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,53 +234,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构/数据分析" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/数据分析/page5绘制条形图.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="page6" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="spider" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构/数据分析/总结和笔记" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/数据分析/总结和笔记/page6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="page7" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="spider" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构/数据分析" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/数据分析/page7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/page1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -327,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02_baidu_tieba" />
+        <item itemvalue="Python.01_try_params" />
+        <item itemvalue="Python.page1" />
         <item itemvalue="Python.page9" />
         <item itemvalue="Python.page8绘制直方图" />
-        <item itemvalue="Python.page7" />
-        <item itemvalue="Python.page6" />
-        <item itemvalue="Python.page5绘制条形图" />
       </list>
     </recent_temporary>
   </component>
@@ -358,14 +322,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="556" y="0" width="1280" height="748" extended-state="0" />
+    <frame x="519" y="0" width="1280" height="748" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.26926133" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.2025417" />
       <window_info id="Structure" order="1" sideWeight="0.50457317" side_tool="true" weight="0.18268467" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.2820122" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.2820122" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39969605" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,41 +367,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/按序选择.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/爬虫实例/抓取猫眼电影排行.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/Ajax数据爬取/爬取微博.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="44" column="60" lean-forward="true" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
-          <folding>
-            <element signature="e#106#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/Ajax数据爬取/街拍.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/动态渲染网页爬取/selenium的使用.ipynb" />
     <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/动态渲染网页爬取/selenium的使用.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -752,6 +682,40 @@
           <folding>
             <element signature="e#2#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/page1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/01_try_params.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="10" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/李毅-第16页.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1037" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/李毅-第1页.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2276" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/02_baidu_tieba.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
