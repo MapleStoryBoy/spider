@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/page124_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/test02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/read_movie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/统计分类情况.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/youtube_video_data/GB_video_data_numbers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/youtube_video_data/GBvideos.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/youtube_video_data/US_video_data_numbers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/youtube_video_data/USvideos.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,26 +18,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/test02.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/统计分类情况.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="48">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
-                <element signature="e#3#22#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/page124_2.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/page4_loc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="160">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/read_movie.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" selection-end-line="5" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -60,8 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/动态渲染网页爬取/单个节点.py" />
-        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/动态渲染网页爬取/多个节点.py" />
         <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/动态渲染网页爬取/节点交互.py" />
         <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/动态渲染网页爬取/动作链.py" />
         <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/动态渲染网页爬取/执行JavaScript.py" />
@@ -111,12 +122,14 @@
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/pandas布尔索引.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/缺失值处理.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/test02.py" />
+        <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/read_movie.py" />
+        <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/统计分类情况.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="621" />
-    <option name="y" value="48" />
+    <option name="x" value="799" />
+    <option name="y" value="14" />
     <option name="width" value="1280" />
     <option name="height" value="748" />
   </component>
@@ -197,7 +210,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.page124_2">
+  <component name="RunManager" selected="Python.统计分类情况">
+    <configuration name="统计分类情况" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/统计分类情况.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="page124_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,7 +253,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="page4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="page4_loc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,7 +274,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="page5_iloc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="read_movie" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,28 +286,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/page5_iloc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pandas布尔索引" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="spider" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/pandas布尔索引.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/read_movie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,11 +318,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.统计分类情况" />
+        <item itemvalue="Python.page4_loc" />
+        <item itemvalue="Python.read_movie" />
         <item itemvalue="Python.page124_2" />
         <item itemvalue="Python.test02" />
-        <item itemvalue="Python.pandas布尔索引" />
-        <item itemvalue="Python.page5_iloc" />
-        <item itemvalue="Python.page4" />
       </list>
     </recent_temporary>
   </component>
@@ -336,14 +349,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="621" y="48" width="1280" height="748" extended-state="0" />
+    <frame x="648" y="29" width="1280" height="748" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.16362192" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.13661636" />
       <window_info id="Structure" order="1" sideWeight="0.50457317" side_tool="true" weight="0.18268467" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.22103658" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.51829267" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39969605" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -380,16 +394,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ArticleSpider/ArticleSpider/images/full/5a76634d870517b1f92d5e03b3aa6c2f61d94f9e.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ArticleSpider/ArticleSpider/utils/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ArticleSpider/article.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-143617" />
@@ -693,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/page4_loc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="8" lean-forward="true" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/page5_iloc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -737,12 +734,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/page124_2.py">
+    <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/page02_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="252">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/read_movie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/page4_loc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/统计分类情况.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
