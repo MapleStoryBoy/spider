@@ -49,3 +49,4 @@ print("*"*100)
 grouped = df["Brand"].groupby(by=[df["Country"],df["State/Province"]]).count()
 print(grouped)
 
+print(grouped1.index)
