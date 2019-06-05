@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/机器学习/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/机器学习/特征工程/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/机器学习/特征工程/数据特征抽取.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/机器学习/特征工程/特征抽取1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/特征工程/特征抽取1.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/特征工程/特征抽取1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/机器学习/特征工程/特征抽取1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+            <state relative-caret-position="130">
+              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -101,8 +97,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="509" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="834" />
+    <option name="y" value="4" />
     <option name="width" value="1050" />
     <option name="height" value="748" />
   </component>
@@ -328,7 +325,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="509" y="0" width="1050" height="748" extended-state="1" />
+    <frame x="834" y="4" width="1050" height="748" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.124392614" />
@@ -724,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/机器学习/特征工程/特征抽取1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        <state relative-caret-position="130">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
         </state>
       </provider>
     </entry>
