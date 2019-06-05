@@ -12,6 +12,7 @@ temp_list = df["title"].str.split(": ").tolist()
 cate_list = [i[0] for i in temp_list]
 df["cate"] = pd.DataFrame(np.array(cate_list).reshape((df.shape[0], 1)))
 
+#指定index为timeStamp
 df.set_index("timeStamp", inplace=True)
 
 plt.figure(figsize=(20, 8), dpi=80)
