@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/911_csv3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/911_csv4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/练习案例/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构/数据分析/练习案例/案例1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/PM2.5/BeijingPM20100101_20151231.csv" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/数据分析/练习案例/PM2.5/BeijingPM20100101_20151231.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/PM2.5/ChengduPM20100101_20151231.csv" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/数据分析/练习案例/PM2.5/ChengduPM20100101_20151231.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/PM2.5/GuangzhouPM20100101_20151231.csv" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/数据分析/练习案例/PM2.5/GuangzhouPM20100101_20151231.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/PM2.5/ShanghaiPM20100101_20151231.csv" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/数据分析/练习案例/PM2.5/ShanghaiPM20100101_20151231.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/PM2.5/ShenyangPM20100101_20151231.csv" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/数据分析/练习案例/PM2.5/ShenyangPM20100101_20151231.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/.ipynb_checkpoints/pandas怎么生成时间索引-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/.ipynb_checkpoints/pandas怎么生成时间索引-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/pandas怎么生成时间索引.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/pandas怎么生成时间索引.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,12 +22,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/911_csv4.py">
+        <entry file="file://$PROJECT_DIR$/数据结构/数据分析/练习案例/案例1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="128">
+              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#1#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/代理的使用/requests代理设置.py" />
         <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/验证码的识别/图形验证码识别.py" />
         <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/模拟登录/模拟登录抓取Github.py" />
         <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/main.py" />
@@ -100,11 +105,12 @@
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/911_csv2.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/911_csv3.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/911_csv4.py" />
+        <option value="$PROJECT_DIR$/数据结构/数据分析/练习案例/案例1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="488" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="681" />
     <option name="width" value="1050" />
     <option name="height" value="748" />
   </component>
@@ -147,8 +153,7 @@
               <item name="spider" type="462c0819:PsiDirectoryNode" />
               <item name="数据结构" type="462c0819:PsiDirectoryNode" />
               <item name="数据分析" type="462c0819:PsiDirectoryNode" />
-              <item name="numpy和pandas" type="462c0819:PsiDirectoryNode" />
-              <item name="pandas笔记" type="462c0819:PsiDirectoryNode" />
+              <item name="练习案例" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -163,11 +168,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/数据结构/数据分析/练习案例" />
       <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记" />
       <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas" />
       <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/Day03总结.mindnode" />
       <recent name="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/验证码的识别" />
-      <recent name="$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/Redis存储" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记" />
@@ -185,8 +190,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.911_csv4">
-    <configuration name="时间序列" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.案例1">
+    <configuration name="案例1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -194,11 +199,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构/数据分析/练习案例" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/911_csv.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/数据分析/练习案例/案例1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,11 +340,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.案例1" />
         <item itemvalue="Python.911_csv4" />
         <item itemvalue="Python.911_csv3" />
         <item itemvalue="Python.page148_2" />
         <item itemvalue="Python.911_csv2" />
-        <item itemvalue="Python.时间序列" />
       </list>
     </recent_temporary>
   </component>
@@ -366,15 +371,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="186" y="0" width="1050" height="748" extended-state="0" />
+    <frame x="681" y="0" width="1050" height="748" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.19241983" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.062196307" />
       <window_info id="Structure" order="1" sideWeight="0.50457317" side_tool="true" weight="0.18268467" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.50609756" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.44054878" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39939025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,16 +416,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/数据结构/数据分析/page4散点图绘制.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-          <folding>
-            <element signature="e#1#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构/数据分析/page5绘制条形图.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -773,10 +768,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/911_csv4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="384">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/数据分析/练习案例/案例1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
