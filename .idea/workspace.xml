@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/机器学习/特征工程/jieba分词.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/机器学习/特征工程/文本特征抽取.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/机器学习/特征工程/字典特征抽取.md" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/特征工程/特征抽取.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/机器学习/特征工程/特征抽取1.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/特征工程/字典特征抽取.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/特征工程/jieba分词.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/特征工程/jieba分词.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/机器学习/特征工程/jieba分词.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="174">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
               <folding>
                 <element signature="e#1#60#0" expanded="true" />
               </folding>
@@ -114,7 +110,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="719" />
+    <option name="x" value="680" />
     <option name="width" value="1050" />
     <option name="height" value="748" />
   </component>
@@ -382,15 +378,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="687" y="0" width="1050" height="748" extended-state="0" />
+    <frame x="680" y="0" width="1050" height="748" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.050534498" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.050534498" />
       <window_info id="Structure" order="1" sideWeight="0.50457317" side_tool="true" weight="0.18268467" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.24390244" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.5152439" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39939025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -770,8 +766,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/机器学习/特征工程/jieba分词.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="174">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
           <folding>
             <element signature="e#1#60#0" expanded="true" />
           </folding>

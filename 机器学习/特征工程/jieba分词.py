@@ -2,7 +2,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 import jieba
 
 
-def cuteord():
+def cutword():
     con1 = jieba.cut("今天很残酷，明天更残酷，后天很美好，但绝对大部分是死在明天晚上，所以每个人不要放弃今天。")
 
     con2 = jieba.cut("我们看到的从很远星系来的光是在几百万年之前发出的，这样当我们看到宇宙时，我们是在看它的过去。")
@@ -27,7 +27,9 @@ def hanzivec():
     中文特征值化
     :return:
     """
-    c1, c2, c3 = cuteord()
+    c1, c2, c3 = cutword()
+    print(c1,c2,c3)
+
     cv = CountVectorizer()
 
     data = cv.fit_transform([c1, c2, c3])
