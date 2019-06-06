@@ -14,6 +14,7 @@ def dictvec():
         [{'city': '北京', 'temperature': 100}, {'city': '上海', 'temperature': 60}, {'city': '深圳', 'temperature': 30}])
 
     print(dict.get_feature_names())
+    print(dict.inverse_transform(data))
     print(data)
 
     return None
