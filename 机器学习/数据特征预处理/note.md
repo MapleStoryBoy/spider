@@ -46,4 +46,21 @@
 		- 标准化实现步骤
 			- 实例化StandardScaler
 			- 通过fit_transform转换	
+- 标准化总结：在已有样本足够多的情况下比较稳定，适合现代嘈杂大数据场景。
+
+### 如何处理缺失值：
+- 1，删除(不建议)：如果每列或者行数据缺失值达到一定的比例，建议放弃整行或者整列
+- 2，插补：可以通过缺失值每行或者每列的平均值、中位数来填充
+- 3，sklearn缺失值API：sklearn.preprocessing.Imputer
+- 4,Imputer语法
+	- Imputer(missing,values='NaN',strategy='mean',axis=0)
+		- 完成缺失值插补
+		- Imputer.fit_transform(X)
+			- X:numpy array格式的数据[n_samples,n_features]
+			- 返回值：转换后的形状相同的array
+		- Imputer流程
+			- 1，初始化Imputer，指定‘缺失值’，指定填补策略，指定行或列
+			- 注意：缺失值也可以是别的指定要替换的值
+			- 2，调用fit_transform
+	
 	
