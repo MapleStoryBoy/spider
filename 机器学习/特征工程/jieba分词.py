@@ -1,4 +1,4 @@
-from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 import jieba
 
 
@@ -28,7 +28,7 @@ def hanzivec():
     :return:
     """
     c1, c2, c3 = cutword()
-    print(c1,c2,c3)
+    print(c1, c2, c3)
 
     cv = CountVectorizer()
 
@@ -41,5 +41,24 @@ def hanzivec():
     return None
 
 
+def tfidfvec():
+    """
+    中文特征值化,tfidf
+    :return:
+    """
+    c1, c2, c3 = cutword()
+    print(c1, c2, c3)
+
+    tf = TfidfVectorizer()
+
+    data = tf.fit_transform([c1, c2, c3])
+
+    print(tf.get_feature_names())
+
+    print(data.toarray())
+
+    return None
+
+
 if __name__ == '__main__':
-    hanzivec()
+    tfidfvec()
