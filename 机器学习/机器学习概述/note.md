@@ -51,12 +51,41 @@
 		- DESCR：数据描述
 		- feature_names:特征名。新闻数据，手写数字、回归数据集没有feature_names
 		- target_names:标签名
-		
+
+
+	
 - 1，数据集划分
 	- 训练集：建立模型
 	- 测试集：评估模型是否有效
 	- sklearn数据集划分API
 		- sklearn.model_selection.train_test_split
+		- 数据集进行分割
+		
+	- sklearn分类数据集
+		- sklearn.datasets.load_iris()
+			- 加载并返回鸢尾花数据集
+		- sklearn.datasets.load_digits()
+			- 加载并返回数字数据集
+			
+	- sklearn回归数据集
+		- sklearn.datasets.load_boston()
+			- 加载并返回波士顿房价数据集
+		- sklearn.datasets.load_diabetes()
+			- 加载和返回糖尿病数据集
+	
+	- sklearn.model_selection.train_test_split(*arrays,**options)
+		- x  数据集的特征值
+		- y  数据集的标签值
+		- test_size  测试集的大小，一般为float
+		- random_state  随机数种子，不同的种子会造成不同的随机采样结果。相同的种子采样结果相同。
+		- return  训练集特征值，测试集特征值，训练标签，测试标签（默认随机取）
+	
+	- 用于分类的大数据集
+		- sklearn.datasets.fetch_20newsgroups(data_home=None,subset='train')
+			- subset:'train'或者'test','all',可选，选择要加载的数据集，训练集的‘训练’，测试集的‘测试’，两者的‘全部’。
+		- datasets.clear_data_home(data_home=None)
+			- 清楚目录下的数据
+	
 - 2，sklearn数据集接口
 - 3，sklearn分类数据集
 - 4，sklearn回归数据集			
