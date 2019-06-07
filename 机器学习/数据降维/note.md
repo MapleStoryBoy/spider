@@ -35,4 +35,12 @@
 						- 返回值：转换后指定维度的array
 					- n_components的形式：
 						- 1，小数 0～1 90%～95%
-						- 2，整数 
+						- 2，整数 减少到的特征数量
+			- 案例：
+			- 步骤分析	
+				- 1，拿到四张表，分别是order_products__prior.csv，products.csv，orders.csv，aisles.csv
+				- 2，分析各张表的特征，并将四张表合并。把order_products__prior.csv和products.csv用pandas中的merge方法以两张表中共同有特征id--->product_id进行合并得到新表，并将的到的新表与orders.csv进行合并，以order_id进行合并得到新表，并继续与aisles.csv合并，以aisles_id合并
+				- 3，建立一个类似行，列数据：交叉表（特殊的分组工具）--- pd.crosstab
+				- 4,进行主成分分析---使用PCA
+				- 
+		
