@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="" />
+    <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/机器学习/数据降维/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/数据降维/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/数据降维/数据降维_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +14,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/机器学习/数据特征预处理/标准化.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-end-line="57" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/机器学习/数据降维/数据降维_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <folding>
+                <element signature="e#1#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/spiders/jobbole.py" />
         <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/pipelines.py" />
         <option value="$PROJECT_DIR$/ArticleSpider/ArticleSpider/utils/zhihu_login_requests.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/page1.py" />
@@ -82,13 +111,14 @@
         <option value="$PROJECT_DIR$/机器学习/特征工程/jieba分词.py" />
         <option value="$PROJECT_DIR$/机器学习/数据特征预处理/归一化.py" />
         <option value="$PROJECT_DIR$/机器学习/数据特征预处理/标准化.py" />
+        <option value="$PROJECT_DIR$/机器学习/数据降维/数据降维_1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="330" />
-    <option name="y" value="10" />
-    <option name="width" value="1050" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="830" />
+    <option name="y" value="33" />
+    <option name="width" value="794" />
     <option name="height" value="748" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -99,6 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,11 +148,16 @@
               <item name="机器学习" type="462c0819:PsiDirectoryNode" />
               <item name="数据特征预处理" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="机器学习" type="462c0819:PsiDirectoryNode" />
+              <item name="数据降维" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.标准化">
+  <component name="RunManager" selected="Python.数据降维_1">
     <configuration name="数据特征抽取" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -301,6 +337,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="数据降维_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习/数据降维" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习/数据降维/数据降维_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="jieba分词" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -324,10 +381,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.标准化" />
-        <item itemvalue="Python.归一化" />
+        <item itemvalue="Python.数据降维_1" />
         <item itemvalue="Python.jieba分词" />
-        <item itemvalue="Python.文本特征抽取" />
         <item itemvalue="Python.数据特征抽取" />
       </list>
     </recent_temporary>
@@ -355,9 +410,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="711" y="0" width="1050" height="748" extended-state="0" />
+    <frame x="8" y="0" width="794" height="748" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.16423713" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.21862872" />
       <window_info id="Structure" order="1" sideWeight="0.50457317" side_tool="true" weight="0.18268467" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -399,23 +455,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/02_baidu_tieba.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/03_fanyi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/page1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -750,12 +789,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/数据降维/note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/机器学习/数据特征预处理/标准化.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="24" column="82" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
+        <state relative-caret-position="36">
+          <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-end-line="57" selection-end-column="15" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/数据降维/数据降维_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="e#1#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
