@@ -51,9 +51,14 @@
 		- DESCR：数据描述
 		- feature_names:特征名。新闻数据，手写数字、回归数据集没有feature_names
 		- target_names:标签名
-
-
 	
+	- fit_transform(X):输入数据直接转换
+	- fit():输入数据，但不做事情
+	- transform():进行数据的转换
+	- fit_transform() = fit() + transform()
+
+
+​	
 - 1，数据集划分
 	- 训练集：建立模型
 	- 测试集：评估模型是否有效
@@ -66,7 +71,7 @@
 			- 加载并返回鸢尾花数据集
 		- sklearn.datasets.load_digits()
 			- 加载并返回数字数据集
-			
+		
 	- sklearn回归数据集
 		- sklearn.datasets.load_boston()
 			- 加载并返回波士顿房价数据集
@@ -88,7 +93,36 @@
 	
 - 2，sklearn数据集接口
 - 3，sklearn分类数据集
-- 4，sklearn回归数据集			
-			
+- 4，sklearn回归数据集	
 
-## 机器学习模型
+### sklearn机器学习算法实现-估计器
+- 在sklearn中，估计器（estimastor）是一个重要的角色，是一类实现了算法的API
+- 1，用于分类的估计器
+	- sklearn.neighbors   K-近邻算法
+	- sklearn.naive_bayes   贝叶斯
+	- sklearn.linear_model.LogisticRegression   逻辑回归
+	- sklearn.tree      决策树与随机森林
+
+- 2，用于回归的估计器
+	- sklearn.linear_model.LinearRegression   线性回归
+	- sklearn.linear_model.Ridge              岭回归
+
+- 估计器使用流程	
+	- 1,调用fit()，参数是训练集数据:fit(x_train,y_train)
+	- 2,输入与测试集数据（x_test,y_test）
+- 1,y_predict = predict(X_test)
+- 2,预测的准确率：socre(X_test,y_test)	
+
+### 分类算法-K近邻算法(KNN)
+- 定义：如果一个样本在特征空间中的k个最相似（即特征空间中最邻近）的样本中的大多数属于某一个类别，则该样本也属于这个类别
+- 来源：KNN算法最早是由Cover和Hart提出的一种分类算法
+	
+- 计算距离公式
+	- 两个样本的距离可以通过如下公式计算，又叫欧式距离。比如说，a(a1,a2,a3),b(b1,b2,b3)
+	- ![1](/Users/mac/Desktop/spider/机器学习/机器学习概述/1.jpeg)
+	- 相似的样本，特征之间的值应该都是相近的
+	- K-近邻算法：需要做标准化处理
+	- sklearn K-近邻算法API
+	  - sklearn.neighbors.KNeighborsClassifier(n_neighbors=5,algorithm='auto')
+	    - n_neighbors:int,可选（默认=5），k_neighbors查询默认使用的邻居数
+	    - algorithm:{'auto','ball_tree','kd_tree','brute'},可选用于计算最近领居的算法：'ball_tree'将会使用BallTree，'kd_tree'将使用KDTree。'auto'将尝试根据传递给fit方法的值来决定最合适的算法。（不同实现方式影响效率）。
