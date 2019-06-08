@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/机器学习/机器学习概述/KNN算法.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/机器学习概述/KNN算法.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/机器学习/机器学习概述/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/机器学习概述/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/机器学习概述/朴素贝叶斯.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +25,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/机器学习/机器学习概述/朴素贝叶斯算法.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/机器学习/机器学习概述/朴素贝叶斯.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-211">
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#71#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/数据结构/数据分析/page2.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/page3.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/page4散点图绘制.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/page5绘制条形图.py" />
@@ -108,11 +119,12 @@
         <option value="$PROJECT_DIR$/机器学习/机器学习概述/day3_01.py" />
         <option value="$PROJECT_DIR$/机器学习/机器学习概述/day3_02.py" />
         <option value="$PROJECT_DIR$/机器学习/机器学习概述/KNN算法.py" />
+        <option value="$PROJECT_DIR$/机器学习/机器学习概述/朴素贝叶斯.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="586" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="574" />
     <option name="width" value="794" />
     <option name="height" value="748" />
   </component>
@@ -184,7 +196,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.KNN算法">
+  <component name="RunManager" selected="Python.朴素贝叶斯">
+    <configuration name="朴素贝叶斯" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习/机器学习概述" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习/机器学习概述/朴素贝叶斯.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="KNN算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -374,34 +407,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="jieba分词" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="spider" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习/特征工程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习/特征工程/jieba分词.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.朴素贝叶斯" />
         <item itemvalue="Python.KNN算法" />
         <item itemvalue="Python.day3_02" />
         <item itemvalue="Python.day3_01" />
         <item itemvalue="Python.数据降维_1" />
-        <item itemvalue="Python.jieba分词" />
       </list>
     </recent_temporary>
   </component>
@@ -428,14 +440,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="586" y="0" width="794" height="748" extended-state="0" />
+    <frame x="574" y="0" width="794" height="748" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.55886155" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.12807244" />
       <window_info id="Structure" order="1" sideWeight="0.50457317" side_tool="true" weight="0.18268467" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.6808219" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.42682928" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39939025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -472,14 +485,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/page4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/page5.ipynb" />
     <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/page5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -837,6 +842,24 @@
           <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding>
             <element signature="e#1#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/机器学习概述/朴素贝叶斯算法.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/机器学习概述/朴素贝叶斯.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
