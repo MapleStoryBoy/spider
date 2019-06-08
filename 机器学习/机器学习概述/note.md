@@ -125,4 +125,36 @@
 	- sklearn K-近邻算法API
 	  - sklearn.neighbors.KNeighborsClassifier(n_neighbors=5,algorithm='auto')
 	    - n_neighbors:int,可选（默认=5），k_neighbors查询默认使用的邻居数
+	    
 	    - algorithm:{'auto','ball_tree','kd_tree','brute'},可选用于计算最近领居的算法：'ball_tree'将会使用BallTree，'kd_tree'将使用KDTree。'auto'将尝试根据传递给fit方法的值来决定最合适的算法。（不同实现方式影响效率）。
+	    
+	    - 在KNN算法实现实例中需要注意
+	    
+	      - 数据处理
+	    
+	        - 1，缩小数据集范围：DataFrame.query()
+	    
+	        - 2,怎么处理日期数据：pd.to_datetime，pd.DatetimeIndex
+	    
+	        - 3,增加分割的日期数据
+	    
+	        - 4，删除没用的日期数据：DataFrame.drop
+	    
+	        - 5,将签到位置少于n个用户的删除
+	    
+	          - place_count = data.groupby('place_id').count() 以place_id分组并统计次数
+	    
+	          - tf = place_count[place_count.row_id > 3].reset_index()
+	    
+	          - data = data[data['place_id'].isin(tf.place_id)]
+	    
+	    - K-近邻算法优缺点
+	    	- 优点：简单，易于理解，易于实现，无需估计参数，无需训练
+	    	- 缺点：
+	    		- 1，懒惰算法，对测试样本分类时的计算量大，内存开销大
+	    		- 2，必须指定K值，K值选择不当则分类精确度不能保证
+	    	- 使用场景：小数据场景，几千～几万样本，具体场景具体业务去测试
+	    
+	            
+	    
+	            ​							
