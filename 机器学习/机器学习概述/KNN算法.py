@@ -77,7 +77,7 @@ def knncls():
     param = {"n_neighbors": [3, 5, 10]}
 
     # 进行网格搜索
-    gc = GridSearchCV(knn, param_grid=param, cv=2)
+    gc = GridSearchCV(knn, param_grid=param, cv=10)
 
     gc.fit(x_train, y_train)
 
