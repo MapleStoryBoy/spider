@@ -42,3 +42,42 @@
 	- mac：brew install graphviz
 - 3，运行命令
 	- dot -Tpng tree.dot -o tree.png
+
+### 决策树的优缺点以及改进
+- 优点：
+	- 简单的理解和解释，树木可视化
+	- 需要很少的数据准备，其它技术通常需要数据归一化
+
+- 缺点：
+	- 决策树学习者可以创建不能很好地推广数据过于复杂的树，这被称为过拟合
+
+- 改进：
+	- 减枝cart算法（决策树API当中已经实现，随机森林参数调优有相关介绍）
+	- 随机森林
+	- 注意：企业重要决策，由于决策树很好的分析能力，在决策过程应用较多。
+
+## 集成学习方法-随机森林
+### 集成学习方法
+- 集成学习通过建立几个模型组合来解决单一预测问题，它的工作原理是生成多个分类器/模型，各自独立地学习和作出预测，这些预测最后结合成单预测，因此优于任何一个单分类的做出预测。
+
+- 什么是随机森林
+- 定义：在机器学习中，随机森林是一个包含多个决策树的分类器，并且其输出的类别是由个别树输出的类别的众数而定
+- 随机森林建立多个决策树的过程：(N个样本，M个特征)
+	- 单个树建立过程：
+		- 1，随机在N个样本当中选择一个样本，重复N次，样本可能重复
+		- 2，随机在M个特征当中选出m个特征  m取值
+	- 建立10颗决策树，样本，特征大多不一样（随机又放回的抽样）
+
+### 随机森林API
+- class sklearn.ensemble.RandomForestClassifier(n_estimators=10,criterion='gini',max_depth=None,bootstrap=True,random_state=None)
+	- 随机森林分类器
+	- n_estimators:integer  optional(default=10)森林里的树木数量120，200，300，500，800，1200
+	- criteria：string 可选(default='gini')分割特征的测量方法
+	- max_depth:integer或None 可选（默认=无）树的最大深度，5，8，15，25，30
+	- max_features="auto",每个决策树的最大特征数量
+		- if 'auto',then 'max_features=sqrt(n_features)'.
+		- if 'sqrt',then 'max_features=sqrt(n_features)'(same as 'auto').
+		- if 'log2',then 'max_features=log2(n_features)'.
+		- if None,then 'max_features=n_features'.
+	
+	- bootstrap:boolean,optional(default=True)是否在构建树时使用放回抽样。
