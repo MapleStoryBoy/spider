@@ -38,7 +38,7 @@ def decision():
 
     # print(x_train)
     # 用决策树进行预测
-    dec = DecisionTreeClassifier()
+    dec = DecisionTreeClassifier(max_depth=8)
 
     dec.fit(x_train, y_train)
 
