@@ -81,3 +81,7 @@
 		- if None,then 'max_features=n_features'.
 	
 	- bootstrap:boolean,optional(default=True)是否在构建树时使用放回抽样。
+
+- 随机森林的优点
+	- 在当前所有算法中，具有极好的准确率
+	- 能够有效的运行在
