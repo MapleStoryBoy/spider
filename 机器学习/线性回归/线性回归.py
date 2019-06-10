@@ -1,5 +1,5 @@
 from sklearn.datasets import load_boston
-from sklearn.linear_model import LinearRegression, SGDRegressor
+from sklearn.linear_model import LinearRegression, SGDRegressor,Ridge
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error
@@ -60,6 +60,20 @@ def myliner():
     print("梯度下降测试集里面每个样本的预测价格：", y_sgd_predict)
 
     print("梯度下降测的均方误差：", mean_squared_error(std_y.inverse_transform(y_test), y_sgd_predict))
+
+    # 岭回归进行房价预测
+    rd = Ridge(alpha=1.0)
+
+    rd.fit(x_train, y_train)
+
+    print(rd.coef_)
+
+    # 预测测试集的房子价格
+    y_rd_predict = std_y.inverse_transform(rd.predict(x_test))
+
+    print("岭回归测试集里面每个样本的预测价格：", y_rd_predict)
+
+    print("岭回归测的均方误差：", mean_squared_error(std_y.inverse_transform(y_test), y_rd_predict))
 
     return None
 
