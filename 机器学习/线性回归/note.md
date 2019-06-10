@@ -88,3 +88,9 @@
 		- 具有L2正则化的线性最小二乘法
 		- alpha：正则化力度
 		- coef_:回归系数
+
+### sklearn模型的保存和加载
+- from sklearn.externals import joblib
+- 保存和加载API
+	- 保存：joblib.dump(rf,'test.pkl')
+	- 加载：estimator = joblib.load('test.pkl')	- 注意：文件格式pkl		

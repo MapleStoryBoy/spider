@@ -3,7 +3,7 @@ from sklearn.linear_model import LinearRegression, SGDRegressor,Ridge
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error
-
+from sklearn.externals import joblib
 
 def myliner():
     '''
@@ -36,6 +36,13 @@ def myliner():
     lr.fit(x_train, y_train)
 
     print(lr.coef_)
+
+    # 保存训练好的模型
+    #joblib.dump(lr,'./test.pkl')
+    #导出模型
+    #model = joblib.load('./test.pkl')
+
+
 
     # 预测测试集的房子价格
     y_lr_predict = std_y.inverse_transform(lr.predict(x_test))
