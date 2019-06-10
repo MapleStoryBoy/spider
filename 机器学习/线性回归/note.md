@@ -38,3 +38,15 @@
 	- 2，波士顿地区房价数据分割
 	- **3，训练与测试数据标准化处理**
 	- 4，使用最简单的线性回归模型LinerRegression和梯度下降估计SGDRegressor对房价进行预测
+
+### 回归性能评估
+
+- 均方误差
+- ![均方误差](/Users/mac/Desktop/spider/机器学习/线性回归/均方误差.jpeg)
+- mean_squared_error
+	- mean_squared_error(y_true,y_pred)
+		- 均方误差回归损失
+		- y_true:真实值
+		- y_pred:预测值
+		- return:浮点数结果
+		- 注意：真实值，预测值为标准化之前的值

@@ -2,6 +2,7 @@ from sklearn.datasets import load_boston
 from sklearn.linear_model import LinearRegression, SGDRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import mean_squared_error
 
 
 def myliner():
@@ -39,7 +40,10 @@ def myliner():
     # 预测测试集的房子价格
     y_lr_predict = std_y.inverse_transform(lr.predict(x_test))
 
-    print("测试集里面每个样本的预测价格：", y_lr_predict)
+    print("正规方程测试集里面每个样本的预测价格：", y_lr_predict)
+
+    # y_test需要转换到标准化之前的值
+    print("正规方程的均方误差：", mean_squared_error(std_y.inverse_transform(y_test), y_lr_predict))
 
     print("*" * 100)
 
@@ -53,7 +57,9 @@ def myliner():
     # 预测测试集的房子价格
     y_sgd_predict = std_y.inverse_transform(sgd.predict(x_test))
 
-    print("测试集里面每个样本的预测价格：", y_sgd_predict)
+    print("梯度下降测试集里面每个样本的预测价格：", y_sgd_predict)
+
+    print("梯度下降测的均方误差：", mean_squared_error(std_y.inverse_transform(y_test), y_sgd_predict))
 
     return None
 
