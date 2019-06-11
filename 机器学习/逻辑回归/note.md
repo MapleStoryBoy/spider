@@ -49,3 +49,10 @@
 	- labels_:默认标记类型，可以和真实值比较（不是值比较）
 - kmeans性能评估指标
 	- ![kmeans性能评估指标](/Users/mac/Desktop/spider/机器学习/逻辑回归/kmeans性能评估指标.jpeg)
+	- Kmeans性能评估指标API
+		- sklearn.metrics.silhouette_score(X,labels)
+		- 计算所有样本的平均轮廓系数
+		- X：特征值
+		- labels：被聚类标记的目标值
+
+	
