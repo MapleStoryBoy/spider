@@ -1,7 +1,7 @@
 ## TensorFlow
 - 前端系统：定义程序的图的结构
 - 后端系统：运算图结构
-- tebsor：张量
+- tensor：张量
 - operation（op）：专门运算的操作节点，所有操作都是一个op
 - 图：graph：整个程序的结构
 - 会话：运算程序的图
@@ -47,10 +47,12 @@
 
 ### 张量（tensor）
 - tensorflow依赖的是numpy
+
 - 张量的阶和数据类型
 	- Tensorflow基本的数据格式
 	- 一个类型化的N维数组（tf.Tensor）
 	- 三部分，名字，形状，数据类型
+	
 - 张量的属性
 	- graph   张量所属的默认图
 	- op      张量的操作名
@@ -66,4 +68,18 @@
 	- 动态形状：
 		- 一种描述原始张量在执行过程中的一种形状（动态变化）
 		- tf.reshape:创建一个具有不同动态形状的新张量。
+   - 要点：
+   		- 1，转换静态形状的时候，1-D到1-D，2-D到2—D，不能跨阶数改变形状
+   		- 2，对于已经固定或者设置静态形状的张量/变量，不能再次设置静态形状
+   		- 3，tf.reshape()动态创建新张量时，元素个数不能不匹配
 
+- 张量操作-生成张量
+	
+	- 固定值张量
+	- ![张量操作-生成张量](/Users/mac/Desktop/spider/深度学习/TensorFlow详解/张量操作-生成张量.jpeg)
+	
+	![创建随机张量](/Users/mac/Desktop/spider/深度学习/TensorFlow详解/创建随机张量.jpeg)
+	
+- 正态分布
+
+- ![正态分布](/Users/mac/Desktop/spider/深度学习/TensorFlow详解/正态分布.jpeg)
