@@ -32,11 +32,20 @@ with tf.Session(config = tf.ConfigProto(log_device_placement=True)) as sess:
     print(sum1.graph)
     print(sess.graph)
 
+# 静态形状和动态形状
+# 对于静态形状来说，一旦张量形态固定了，不能再次设置静态形状
+# 动态形状可以创建一个新的张量
+plt = tf.placeholder(tf.float32,[None,2])
+print(plt)
 
+plt.set_shape([3,2])
+print(plt)
 
+plt_reshape = tf.reshape(plt,[2,3])
+print(plt_reshape)
 
-
-
+with tf.Session() as sess:
+    pass
 
 
 
