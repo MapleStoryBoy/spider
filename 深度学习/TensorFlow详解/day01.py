@@ -26,7 +26,7 @@ graph = tf.get_default_graph()
 print(graph)
 
 # 只能运行一个图，可以在会话当中指定图去运行。
-with tf.Session() as sess:
+with tf.Session(config = tf.ConfigProto(log_device_placement=True)) as sess:
     print(sess.run(sum1))
     print(a.graph)
     print(sum1.graph)
