@@ -25,7 +25,7 @@ sum1 = tf.add(a,b)
 graph = tf.get_default_graph()
 print(graph)
 
-# 只能运行一个图
+# 只能运行一个图，可以在会话当中指定图去运行。
 with tf.Session() as sess:
     print(sess.run(sum1))
     print(a.graph)
