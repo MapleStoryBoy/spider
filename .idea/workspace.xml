@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Django学习和项目/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/temp/summary/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/temp/summary/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deeplearn/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/TensorFlow详解/TensorFlow数据流图介绍.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/TensorFlow数据流图介绍.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/TensorFlow详解/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/TensorFlow详解/day01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/TensorFlow详解/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/TensorFlow详解/创建随机张量.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/创建随机张量.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/TensorFlow详解/张量操作-生成张量.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/张量操作-生成张量.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/TensorFlow详解/正态分布.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/正态分布.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深度学习/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/temp/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +25,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Django学习和项目/note.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/数据结构/数据分析/page8绘制直方图.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/page9.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/page1.py" />
         <option value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/01_try_params.py" />
@@ -96,14 +108,15 @@
         <option value="$PROJECT_DIR$/机器学习/线性回归/线性回归.py" />
         <option value="$PROJECT_DIR$/机器学习/逻辑回归/癌症预测.py" />
         <option value="$PROJECT_DIR$/深度学习/TensorFlow详解/day01.py" />
+        <option value="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day01.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="863" />
-    <option name="y" value="8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="498" />
+    <option name="y" value="60" />
     <option name="width" value="932" />
-    <option name="height" value="748" />
+    <option name="height" value="740" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -124,7 +137,37 @@
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="Django学习和项目" type="462c0819:PsiDirectoryNode" />
+              <item name="deeplearn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="deeplearn" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorFlowxiangjie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="deeplearn" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorFlowxiangjie" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="deeplearn" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorFlowxiangjie" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
+              <item name="summary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="deeplearn" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorFlowxiangjie" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
+              <item name="summary" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.day01">
+  <component name="RunManager" selected="Python.day01 (2)">
     <configuration name="朴素贝叶斯" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -393,7 +436,49 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="day01 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deeplearn/TensorFlow详解" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deeplearn/TensorFlow详解/day01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="day01 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="day01" type="PythonConfigurationType" factoryName="Python">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -406,27 +491,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/深度学习/TensorFlow详解/day01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="day3_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="spider" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习/机器学习概述" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习/机器学习概述/day3_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -458,11 +522,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.day01" />
+        <item itemvalue="Python.day01 (2)" />
+        <item itemvalue="Python.day01 (1)" />
         <item itemvalue="Python.朴素贝叶斯" />
         <item itemvalue="Python.KNN算法" />
         <item itemvalue="Python.day3_02" />
-        <item itemvalue="Python.day3_01" />
       </list>
     </recent_temporary>
   </component>
@@ -489,14 +553,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="863" y="8" width="932" height="748" extended-state="0" />
+    <frame x="498" y="60" width="932" height="740" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.2524698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.25686058" />
       <window_info id="Structure" order="1" sideWeight="0.50457317" side_tool="true" weight="0.18268467" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.27591464" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.40895063" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39939025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -533,16 +598,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/page02_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/read_movie.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -904,7 +959,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/深度学习/TensorFlow详解/note.md">
+    <entry file="file://$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -922,21 +977,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/深度学习/TensorFlow详解/day01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Django学习和项目/note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="1151" selection-start-line="1151" selection-end-line="1151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
