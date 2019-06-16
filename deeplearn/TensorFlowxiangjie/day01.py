@@ -73,6 +73,20 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 # 训练参数问题：trainable
 # 学习率和步数问题
 
+# 添加权重参数，损失值等在tensorboard观察的情况，合并变量
+
+# 定义命令行参数
+# 1，首先定义有哪些参数需要在运行的时候指定
+# 2，程序当中获取定义命令行参数
+
+# 第一个参数：名字，默认值，说明
+tf.app.flags.DEFINE_integer("max_step",100,"模型训练的步数")
+tf.app.flags.DEFINE_string("model_dir"," ","模型文件的加载路径")
+
+# 定义获取命令行参数名字
+FLAGS = tf.app.flags.FLAGS
+
+
 
 def myregression():
     '''
@@ -103,9 +117,20 @@ def myregression():
         # 4,梯度下降优化损失   learning_rate:0~1,2,3,5,7,10
         train_op = tf.train.GradientDescentOptimizer(0.1).minimize(loss)
 
+    # 收集tensor，
+    tf.summary.scalar("losses",loss)
+    tf.summary.histogram("weights",weight)
+
+    # 定义合并tensor的op
+    merged = tf.summary.merge_all()
+
+
 
     # 5，定义一个初始化变量的op
     init_op = tf.global_variables_initializer()
+
+    # 定义一个保存模型的op
+    saver = tf.train.Saver()
 
     # 6,通过会话运行程序
     with tf.Session() as sess:
@@ -116,13 +141,21 @@ def myregression():
         print("随机初始化的参数权重为： %f, 偏置为：%f " % (weight.eval(), bias.eval()))
 
         # 建立事件文件
-        folewriter = tf.summary.FileWriter("./temp/summary/test/", graph=sess.graph)
+        filewriter = tf.summary.FileWriter("./temp/summary/test/", graph=sess.graph)
+
+        # 加载模型，覆盖模型当中随机定义的参数，从上次训练的参数结果开始
+        if os.path.exists("./temp/ckpt/checkpoint"):
+            saver.restore(sess,FLAGS.model_dir)
 
         # 循环训练 运行优化
-        for i in range(1300):
+        for i in range(FLAGS.max_step):
             sess.run(train_op)
-
+            # 运行合并的tensor
+            summary = sess.run(merged)
+            filewriter.add_summary(summary,i)
             print("第%d次优化参数权重为： %f, 偏置为：%f " % (i, weight.eval(), bias.eval()))
+        
+        saver.save(sess,FLAGS.model_dir)
 
     return None
 

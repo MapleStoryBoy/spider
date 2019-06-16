@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/temp/summary/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/temp/summary/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deeplearn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/temp/ckpt/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/TensorFlow详解/TensorFlow数据流图介绍.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/TensorFlow数据流图介绍.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/TensorFlow详解/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/TensorFlow详解/day01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/TensorFlow详解/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/TensorFlow详解/创建随机张量.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/创建随机张量.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/TensorFlow详解/张量操作-生成张量.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/张量操作-生成张量.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/TensorFlow详解/正态分布.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/正态分布.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深度学习/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/temp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day01.py" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/temp/summary/test/events.out.tfevents.1560601502.MACdeMBP.lan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/temp/summary/test/events.out.tfevents.1560601896.MACdeMBP.lan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/temp/summary/test/events.out.tfevents.1560602146.MACdeMBP.lan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/temp/summary/test/events.out.tfevents.1560603043.MACdeMBP.lan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/temp/summary/test/events.out.tfevents.1560609144.MACdeMBP.lan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/temp/summary/test/events.out.tfevents.1560609763.MACdeMBP.lan" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
+            <state relative-caret-position="219">
+              <caret line="161" column="32" lean-forward="true" selection-start-line="161" selection-start-column="32" selection-end-line="161" selection-end-column="32" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -113,8 +110,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="498" />
-    <option name="y" value="60" />
+    <option name="x" value="751" />
+    <option name="y" value="19" />
     <option name="width" value="932" />
     <option name="height" value="740" />
   </component>
@@ -151,6 +148,14 @@
               <item name="deeplearn" type="462c0819:PsiDirectoryNode" />
               <item name="TensorFlowxiangjie" type="462c0819:PsiDirectoryNode" />
               <item name="temp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="deeplearn" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorFlowxiangjie" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
+              <item name="ckpt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
@@ -553,15 +558,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="498" y="60" width="932" height="740" extended-state="0" />
+    <frame x="751" y="19" width="932" height="740" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.25686058" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.14379802" />
       <window_info id="Structure" order="1" sideWeight="0.50457317" side_tool="true" weight="0.18268467" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.40895063" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.40895063" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39939025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -598,13 +603,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/read_movie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/page4_loc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -992,10 +990,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/temp/ckpt/checkpoint">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
+        <state relative-caret-position="219">
+          <caret line="161" column="32" lean-forward="true" selection-start-line="161" selection-start-column="32" selection-end-line="161" selection-end-column="32" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>

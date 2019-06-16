@@ -152,6 +152,33 @@
 	- 嵌套使用变量作用域
 		- 观察变量的name改变
 
+- 模型保存和加载
+	- tf.train.Saver(var_list=None,max_to_keep=5)
+		- var_list:指定将要保存和还原的变量。它可以作为一个dict或一个列表传递
+		- max_to_keep:指示要保留的最近检查点文件的最大数量。创建新文件时，会删除较旧的文件。如果无或0，则保留所有检查点文件，默认为5（即保留最新的5个检查点文件。）
+	- 例如：saver.save(sess,"/tmp/ckpt/test/model")
+		- saver.restore(sess,"/tmp/ckpt/test/model")
+	- 保存文件格式：checkpoint文件
+
+### 线程队列与IO操作
+- 队列和线程
+	- 队列与队列管理器
+		- Tensorflow队列
+			- 在训练样本的时候，希望读入的训练样本是有序的
+			- tf.FIFOQueue先进先出队列，按顺序出队列
+			- tf.RandomShuffleQueue随机出队列
+		- tf.FIFOQueue
+			- FIFOQueue(capacity,dtypes,name='fifo_queue')
+			- 创建一个以先进先出的顺序对元素进行排队的队列
+				- capacity：整数。可能存储在此队列中的元素数量的上限
+				- dtypes：DType对象列表。长度dtypes必须等于每个队列元素中的张量数，dtype的类型形状，决定了后面进队列元素的形状
+				- method
+					- dequeue(name=None)
+					- enqueue(vals,name=None)
+					- enqueue_many(vals,name=None):vals列表或者元组
+					- 返回一个进队列操作
+					- size(name=None)
+	- 线程和协调器
 
 
 
