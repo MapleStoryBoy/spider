@@ -178,7 +178,76 @@
 					- enqueue_many(vals,name=None):vals列表或者元组
 					- 返回一个进队列操作
 					- size(name=None)
-	- 线程和协调器
+					
+		- 队列管理器
+			- tf.train.QueueRunner(queue,enqueue_ops=None)
+			- 创建一个QueueRunner
+				- queue:A Queue
+				- enqueue_ops:添加线程的队列操作列表，[]*2指定两个线程
+				- create_threads(sess,coord=None,start=False)
+				- 创建线程来运行给定会话的入队操作
+					- start：布尔值，如果True启动线程；如果为False调用者必须调用start()启动线程
+					- coord：线程协调器，后面线程管理需要用到
+					- return：线程的实例
+					 
+	- 线程协调器
+		- tf.train.Coordinator()
+		- 线程协调员实现一个简单的机制来协调一组线程的终止
+			- request_stop()
+			- should_stop()检查是否要求停止
+			- join(threads=None,stop_grace_period_secs=120)等待线程终止
+			- return:线程协调员实例
+
+### 文件读取
+- 1，文件读取API—文件队列构造
+	- tf.train.string_input_producer(string_tensor,shuffle=True)
+	- 将输出字符串（例如文件名）输入到管道队列
+		- string_tensor:含有文件名的1阶张量，就相当于一个列表（含路径）
+		- num_epochs：过几遍数据，默认无限过数据
+		- return：具有输出字符串的队列
+- 2，文件阅读器
+	- 根据文件格式，选择对应的文件阅读器
+	- class tf.TextLineReader
+		- 阅读文本文件逗号分隔值（csv）格式，默认按行读取
+		- return：读取器实例
+	- tf.FixedLengthRecordReader(record_bytes)
+		- 要读取每个记录是固定数量字节的二进制文件
+		- record_bytes：整型，指定每次读取的字节数
+		- return：读取器实例
+	- tf.TFRecordReader
+		- 读取TfRecords文件
+	- 有一个共同的读取方法：
+	- read(file_queue):从队列中指定数量内容
+	- 返回一个Tensors元组（key文件名字，value默认的内容（行，字节））
+
+- 3，文件内容解码器
+	- 由于从文件中读取的是字符串，需要函数去解析这些字符串到张量
+	- tf.decode_csv(records.record_defaults=None,field_delim=None,name=None) 将CSV转换为张量，与tf.TextLineReader搭配使用
+		- records:tensor型字符串，每个字符串是csv中的记录行
+		- field_delim:默认分隔符","
+		- record_defaults:参数决定了所得张量的类型，并且设置一个值在输入字符串中缺少使用默认值
+	- tf.decode_raw(bytes,out_type,little_endian=None,name=None)
+	- 将字节转换为一个数字向量表示，字节为一字符串类型的张量，与函数tf.FixedLengthRecordReader搭配使用，二进制读取为unit8格式
+
+- 4,开启线程操作
+	- tf.train.start_queue_runners(sess=None,coord=None)
+	- 收集所有图中的队列线程，并启动线程
+		- sess：所在的会话中
+		- coord：线程协调器
+		- return：返回所有线程队列
+		
+- 5，管道读端批处理
+	- tf.train.batch(tensors,batch_size,num_threads=1,capacity=32,name=None)
+		- 读取指定大小（个数）的张量
+		- tensor：可以是包含张量的列表
+		- batch_size：从列表中读取的批处理大小
+		- num_threads：进入队列的线程数
+		- capacity：整数，队列中元素的最大数量
+		- return：tensors
+	- tf.train.shuffle_batch(tensors,batch_size,capacity,min_after_dequeue,num_threads=1,)
+	- 乱序读取指定大小（个数）的张量
+	- min_after_dequeue:留下队列里的张量个数，能够保持随机打乱 
+			
 
 
 
