@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/data/csvdata/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/data/csvdata/a.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/data/csvdata/b.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/data/csvdata/c.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/data/dog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day05.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/note.md" afterDir="false" />
     </list>
@@ -21,12 +16,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day04.py">
+        <entry file="file://$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day05.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state relative-caret-position="240">
+              <caret line="34" column="86" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
               <folding>
-                <element signature="e#1#24#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,7 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/page3.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/page4.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/page5.ipynb" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/page5.py" />
@@ -105,12 +99,12 @@
         <option value="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/data/csvdata/b.csv" />
         <option value="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/data/csvdata/c.csv" />
         <option value="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day04.py" />
+        <option value="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day05.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="429" />
-    <option name="y" value="19" />
+    <option name="x" value="652" />
     <option name="width" value="932" />
     <option name="height" value="740" />
   </component>
@@ -148,14 +142,6 @@
               <item name="TensorFlowxiangjie" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="deeplearn" type="462c0819:PsiDirectoryNode" />
-              <item name="TensorFlowxiangjie" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="csvdata" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -168,15 +154,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie" />
       <recent name="$PROJECT_DIR$/机器学习/数据降维" />
       <recent name="$PROJECT_DIR$/数据结构/数据分析/练习案例" />
       <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记" />
       <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas" />
-      <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/Day03总结.mindnode" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -191,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.day04">
+  <component name="RunManager" selected="Python.day05">
     <configuration name="标准化" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -381,27 +367,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day01 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="spider" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deeplearn/TensorFlow详解" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deeplearn/TensorFlow详解/day01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="day01 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -507,13 +472,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="day05" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day05.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.day05" />
         <item itemvalue="Python.day04" />
         <item itemvalue="Python.day03" />
         <item itemvalue="Python.day02" />
         <item itemvalue="Python.day01 (2)" />
-        <item itemvalue="Python.day01 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -540,15 +526,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="650" y="60" width="932" height="740" extended-state="0" />
+    <frame x="135" y="0" width="932" height="740" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.09989023" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.1053787" />
       <window_info id="Structure" order="1" sideWeight="0.50457317" side_tool="true" weight="0.18268467" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.5509259" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.44135803" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39939025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -585,23 +571,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/练习.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/数据分析/test2.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/911_csv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -972,12 +941,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/data/dog/5.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day04.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <caret line="33" selection-start-line="33" selection-end-line="54" />
           <folding>
             <element signature="e#1#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="34" column="86" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>

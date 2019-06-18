@@ -248,7 +248,43 @@
 	- 乱序读取指定大小（个数）的张量
 	- min_after_dequeue:留下队列里的张量个数，能够保持随机打乱 
 			
+### 图片读取
+- 图像数字化三要素
+	- 三要素：长度，宽度，通道数
+- 图像的基本操作 
+	- 目的：
+		- 1，增加图片数据的统一性
+		- 2，所有图片转换成指定大小
+		- 3，缩小图片数据量，防止增加开销
+	- 操作：
+		- 1，缩小图片大小
+	
+	- 图像基本操作API
+		- tf.image.resize_images(images,size)---缩小图片
+			- images:4-D形状[batch,height,width,channels]或3—D形状的张量[height,width,channels]的图片数据
+			- size:1-D int32张量：new_height,new_width,图像的新尺寸
+			- 返回4-D格式或者3-D格式图片
 
+- 图像读取API
+	- 图像读取器
+	- tf.WholeFileReader
+		- 将文件的全部内容作为值输出的读取器
+		- return：读取器实例
+		- read(file_queue):输出将是一个文件名（key）和该文件的内容（value）
+	- 图像解码器
+	- tf.image.decode_jpeg(contents)
+		- 将JPEG编码的图像解码为uint8张量
+		- return：uint8张量，3-D形状[height,width,channels]
+	- tf.image.decode_png(contents)
+		- 将PNG编码的图像解码为uint8或uint16张量
+		- return：张量类型，3-D形状[height,width,channels]
+
+- 图片批处理案例流程
+	- 1，构造图片文件队列
+	- 2，构造图片阅读器
+	- 3，读取图片数据
+	- 4，处理图片数据
+	
 
 
 
