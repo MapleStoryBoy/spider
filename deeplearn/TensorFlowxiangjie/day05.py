@@ -32,7 +32,7 @@ def picread(filelist):
     image_resize.set_shape([200, 200, 3])
 
     # 5,进行批处理
-    image_batch = tf.train.batch([image_resize], batch_size=20, num_threads=1, capacity=20)
+    image_batch = tf.train.batch([image_resize], batch_size=50, num_threads=1, capacity=50)
 
     print(image_batch)
 

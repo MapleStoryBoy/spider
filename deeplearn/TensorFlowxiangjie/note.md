@@ -284,6 +284,59 @@
 	- 2，构造图片阅读器
 	- 3，读取图片数据
 	- 4，处理图片数据
+
+### TFRecords分析、存取
+- tensorflow自带的文件格式：
+	- 1，方便读取和移动 
+
+- TFRecords文件分析
+	- 文件格式：*.tfrecords
+	- 写入文件内容：Example协议块
+	- 对于每一个样本，都要构造example协议块
+
+- TFRecords存储
+	- 1，建立TFRecord存储器
+		- tf.python_io.TFRecordWriter(path)---写入tfrecords文件
+		- path：TFRecords文件的路径
+		- return：写文件
+		- method
+			- writer(record):向文件中写入一个字符串记录(example)
+			- close()：关闭文件写入器
+			- 注：字符串为一个序列化的Example，Example_SerializeToString()
+	
+	- 2，构造每个样本的Example协议块
+		- tf.train.Example(features=None)
+			- 写入tfrecords文件
+			- features：tf.train.Features类型的特征实例
+			- return：example格式协议块
+
+		- tf.train.Features(feature=None)
+			- 构建每个样本的信息键值dui
+			- feature：字典数据，key为要保存的名字，value为tf.train.Feature实例
+			- return：Features类型
+
+		- tf.train.Feature(**options)
+			- **options:例如：
+				- bytes_list=tf.train.BytesList(value=[Bytes])
+				- int64_list=tf.train.Int64List(value=[Value])
+		
+		- tf.train.Int64List(value=[Value])
+		- tf.train.BytesList(value=[Bytes])
+		- tf.train.FloatList(value=[value])
+	
+	- 3，TFRecords读取方法
+	- 同文件阅读器流程，中间需要解析过程
+	- 解析TFRecords的example协议内存块
+	- tf.parse_single_example(serialized,features=None,name=None)
+		- 解析一个单一的Example原型
+		- serialized：标量字符串Tensor，一个序列化的Example
+		- features：dict字典数据，键为读取的名字，值为FixedLenFeature
+		- return：一个键值对组成的字典，键为读取的名字
+
+	- tf.FixedLenFeature(shape,dtype)
+		- shape:输入数据的形状，一般不指定，为空列表
+		- dtype：输入数据类型，与存储进文件的类型要一致，类型只能是float32，int64，string
+
 	
 
 
