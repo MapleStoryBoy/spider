@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b6540b47-a780-4f86-8aff-61ba9bbf04ca" name="my_spider" url="http://10.211.55.11">
+        <fileTransfer host="10.211.55.11" port="22" rootFolder="/home/zdw" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"test.t24"},{"v":2,"unique":true,"key":{"name":1.0},"name":"name_1","ns":"test.t24"},{"v":2,"key":{"a":1.0,"c":10.0},"name":"a_1_c_10","ns":"test.t24"}]}

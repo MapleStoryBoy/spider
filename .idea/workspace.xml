@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/deeplearn/神经网络/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deeplearn/神经网络/note.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,8 +88,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="564" />
-    <option name="y" value="4" />
+    <option name="x" value="593" />
+    <option name="y" value="19" />
     <option name="width" value="1057" />
     <option name="height" value="740" />
   </component>
@@ -103,6 +101,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,7 +113,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -495,7 +493,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="564" y="4" width="1057" height="740" extended-state="1" />
+    <frame x="564" y="4" width="1057" height="740" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.253861" />
       <window_info id="Structure" order="1" sideWeight="0.50457317" side_tool="true" weight="0.18268467" />
