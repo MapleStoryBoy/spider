@@ -6,6 +6,7 @@
 - 图：graph：整个程序的结构
 - 会话：运算程序的图
 - ![TensorFlow数据流图介绍](/Users/mac/Desktop/spider/deeplearn/TensorFlowxiangjie/TensorFlow数据流图介绍.jpeg)
+- 
 ### 图
 - 图默认已经注册，一组表示tf.Operation计算单位的对象和tf.Tensor表示操作之间流动的数据单元的对象
 - 获取调用：
