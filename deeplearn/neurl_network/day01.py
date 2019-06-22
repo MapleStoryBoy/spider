@@ -69,7 +69,7 @@ def full_connected():
         for i in range(5000):
 
             # 取出真实存在的特征值和目标值
-            mnist_x,mnist_y = mnist.train.next_batch(50)
+            mnist_x,mnist_y = mnist.train.next_batch(100)
 
             # 运行train_op训练
             sess.run(train_op,feed_dict={x:mnist_x,y_true:mnist_y})
