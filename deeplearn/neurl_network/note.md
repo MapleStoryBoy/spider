@@ -69,7 +69,70 @@
 			- 2，全连接结果计算
 			- 3，损失优化
 			- 4，模型评估（计算准确性）
-### 二、人工神经网络（ANN）
-### 三、Mnist数据集浅层神经网络分析
-### 四、卷积神经网络（CNN）
-### 五、卷积网络Mnist数字图片识别
+	
+
+### 二、卷积神经网络（CNN）
+- 神经网络（neural networks）的基本组成包括输入层、隐藏层、输出层。二卷积神经网络的特点在于隐藏层分为卷积层和池化层（pooling layer，又叫下采样层）
+	- 卷积层：通过在原始图像上平移来提取特征
+	- 池化层：通过特征后稀疏参数来减少学习的参数，降低网络的复杂度，（最大池化和平均池化）
+
+- 卷积神经网络的结构
+	- 1，卷积层过滤器
+		- 个数
+		- 大小（1*1，3*3，5*5）
+		- 步长
+		- 零填充
+		- 卷积层输出深度、输出宽度
+			- 深度由过滤器个数决定
+			- 输出宽度
+	- 2，激活函数
+	- ![激活函数Relu](/Users/mac/Desktop/spider/deeplearn/neurl_network/激活函数Relu.jpeg)
+	- 3，池化层
+	- 4，全连接层
+- 注：在大型网络当中会有一个droupout（减少过拟合）
+	- 卷积层过滤器的参数
+		- 输入体积大小H1*W1*D1
+		- 四个超参数：
+			- Filter数量K
+			- Filter大小F
+			- 步长S
+			- 零填充大小P
+		- 输出体积大小H2*W2*D2
+			- H2 = （H1-F+2P）/ S + 1
+			- W2 = （W1-F+2P）/ S + 1
+			- D2 = K 
+	- 卷积层的零填充
+		- 卷积核在提取特征映射时的动作称之为padding（零填充），由于移动步长不一定能整出整张图的像素宽度。其中有两种方式，SAME和VALID
+			- 1，SAME：越过边缘取样，取样的面积和输入图像的像素宽度一致。
+			- 2，VALID：不越过边缘取样，取样的面积小于输入人的图像的像素宽度
+	- 卷积网络API介绍
+	- 卷积层：
+		- tf.nn.conv2d(input,filter,strides=,padding=,name=None)
+		- 计算给定4-D input和filter张量的2维卷积
+			- input：给定的输入张量，具有[batch,height,width,channel],类型为float32，64
+			- filter：指定过滤器的大小，[filter_height,filter_width,in_channels,out_channels]
+			- strides：strides = [1,stride,stride,1],步长
+			- padding："SAME","VALID",使用的填充算法的类型，使用"SAME".其中"VALID"表示滑动超出部分舍弃，"SAME"表示填充，使得变化后height，width一样大。 
+	- 激活函数：
+	- tf.nn.relu(features,name=None)
+		- features:卷积后加上偏置的结果
+		- return:结果
+
+	- 池化层（pooling）计算
+		- Pooling层主要的作用是特征提取，通过去掉Feature Map中不重要的样本，进一步减少参数数量。Pooling的方法很多，最常用的是Max 
+		- Pooling。2*2，步长2
+		- ![池化层计算](/Users/mac/Desktop/spider/deeplearn/neurl_network/池化层计算.jpeg)
+	
+	- 池化API：
+	- tf.nn.max_pool(value,ksize=,strides=,padding=,name=None)---输入上执行最大池数
+		- value：4-D Tensor形状[batch,height,width,channels]
+		- ksize：池化窗口大小，[1,ksize,ksize,1]
+		- strides：步长大小，[1,strides,strides,1]
+		- padding："SAME","VALID",使用的填充算法的类型，使用"SAME"
+
+	- Full Connected层
+		- 分析：前面的卷积和池化相当于做特征工程，后面的全连接相当于做特征加权。最后的全连接层在整个卷积神经网络中起到“分类器”的作用。
+	- 卷积网络分析
+	- ![卷积网络实现分析](/Users/mac/Desktop/spider/deeplearn/neurl_network/卷积网络实现分析.jpeg)
+		
+### 三、卷积网络Mnist数字图片识别
