@@ -135,4 +135,4 @@
 	- 卷积网络分析
 	- ![卷积网络实现分析](/Users/mac/Desktop/spider/deeplearn/neurl_network/卷积网络实现分析.jpeg)
 		
-### 三、卷积网络Mnist数字图片识别
+### 三、
