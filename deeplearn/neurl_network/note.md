@@ -135,4 +135,55 @@
 	- 卷积网络分析
 	- ![卷积网络实现分析](/Users/mac/Desktop/spider/deeplearn/neurl_network/卷积网络实现分析.jpeg)
 		
-### 三、
+### 三、分布式TensorFlow
+- 分布式API
+	- 1，创建一个tf.train.ClusterSpec,用于对集群中的所有任务进行描述，该描述内容对所有任务应该是相同的。
+	- 2，创建一个tf.train.Server,用于创建一个任务(ps,worker)，并运行相应作业上的计算任务。
+- 1，创建集群
+	- cluster = tf.train.CluterSpec({"ps":ps_spec,"worker":worker_spec})
+	- cluster = tf.train.ClusterSpec({"worker":["worker0.example.com:2222","worker1.example.com:2222","worker2.example.com:2222"],"ps":["ps0.example.com:2222","ps1.example.com:2222"]})
+
+- 2，创建服务
+	- tf.train.Server(server_or_cluster_def,job_name=None,task_index=None,protocol=None,config=None,start=True)
+		- 创建服务(ps,worker)
+		- server_or_cluster_def:集群描述
+		- job_name:任务类型名称
+		- task_index:任务数
+		- attribute：target
+			- 返回tf.Session连接到此服务器的目标
+		- method：join()
+			- 参数服务器端，直到服务器等待接受参数任务关闭
+- 3，工作节点指定设备运行
+	- tf.device(device_name_or_function)
+	- 选择指定设备或者设备参数
+	- if device_name:
+		- 指定设备
+		- 例如："/job:worker/task:0/cpu:0"
+	- if function:
+		- tf.train.replica_device_setter(worker_device=worker_device,cluster=cluster)
+		- 作用：通过此函数协调不同设备上的初始化操作
+		- worker_device:为指定设备，"/job:worker/task:0/cpu:0"or"/job:worker/task:0/gpu:0"
+		- cluster:集群描述对象
+	- 注：使用with tf.device(),使不同工作节点工作在不同的设备上
+
+- 4，分布式会话API
+	- tf.train.MonitoredTrainingSession(master="",is_chief=True,checkpoint_dir=None,hooks=None,save_checkpoint_secs=600,save_summaries_steps=USE_DEFAULT,save_summaries_secs=USE_DEFAULT,config=None)
+	- 分布式会话函数
+	- master：指定运行会话协议ip和端口（用于分布式）
+		- "grpc://192.168.0.1:2000"
+	- is_chief是否为主worker（用于分布式）
+		- 如果为True，它将负责初始化和恢复基础的Tensorflow会话。如果为False，它将等待一位负责人初始化或恢复Tensorflow会话
+	- checkpoint_dir：检查点文件目录，同时也是events目录
+	- config：会话运行的配置项，tf.ConfigProto(log_device_placement=True)
+	- hooks:可选SessionRunHook对象列表
+	- should_stop():是否异常停止
+	- run()：跟session一样可以运行op
+
+- 5，常用钩子
+	- tf.train_StopAtStepHook(last_step=5000)
+	- 指定执行的训练轮数也就是max_step，超过了就会抛出异常
+	- tf.train.NanTensorHook(loss)
+	- 判断指定Tensor是否为NaN，为NaN则结束
+	- 注：在使用钩子的时候需要定义一个全局步数：global_step=tf.contrib.framework.get_or_create_global_step()
+	
+	
