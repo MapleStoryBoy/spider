@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>note</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h2 id="toc_0">TensorFlow</h2>
+
+<ul>
+<li>前端系统：定义程序的图的结构</li>
+<li>后端系统：运算图结构</li>
+<li>tensor：张量</li>
+<li>operation（op）：专门运算的操作节点，所有操作都是一个op</li>
+<li>图：graph：整个程序的结构</li>
+<li>会话：运算程序的图</li>
+</ul>
+
+<h2 id="toc_1">- <img src="/Users/mac/Desktop/spider/deeplearn/TensorFlowxiangjie/TensorFlow%E6%95%B0%E6%8D%AE%E6%B5%81%E5%9B%BE%E4%BB%8B%E7%BB%8D.jpeg" alt="TensorFlow数据流图介绍"></h2>
+
+<h3 id="toc_2">图</h3>
+
+<ul>
+<li>图默认已经注册，一组表示tf.Operation计算单位的对象和tf.Tensor表示操作之间流动的数据单元的对象</li>
+<li>获取调用：
+
+<ul>
+<li>tf.get<em>default</em>graph()</li>
+<li>op、sess或者tensor的graph属性</li>
+</ul></li>
+<li>图的创建
+
+<ul>
+<li>tf.Graph()</li>
+<li>使用新创建的图
+
+<ul>
+<li>g = tf.Graph()</li>
+<li>with g.as_default():
+
+<ul>
+<li>a = tf.constant(1.0)</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h3 id="toc_3">会话</h3>
+
+<ul>
+<li><p>会话的作用：</p>
+
+<ul>
+<li>1，运行图的结构</li>
+<li>2，分配资源计算</li>
+<li>3，掌握资源（变量生命周期，队列，线程）</li>
+</ul></li>
+<li><p>tf.Session()</p>
+
+<ul>
+<li>运行TensorFlow操作图的类，使用默认注册的图（可以指定运行图）</li>
+</ul></li>
+<li><p>会话资源</p>
+
+<ul>
+<li>会话可能拥有很多资源，如tf.Variable,tf.QueueBase和tf.ReaderBase,会话结束后需要进行资源释放</li>
+<li>1，sess = tf.Session()  sess.run(...)  sess.close（sess.run，启动整个图）</li>
+<li>2，使用上下文管理器（对比第一种方法）
+
+<ul>
+<li>  with tf.Session() as sess:
+
+<ul>
+<li>sess.run(...)</li>
+</ul></li>
+</ul></li>
+<li>config = tf.ConfigProto(log<em>device</em>placement=True)</li>
+<li>交互式：tf.InteractiveSession()</li>
+</ul></li>
+<li><p>会话里面的run方法</p>
+
+<ul>
+<li>run(fetches,feed_dict=None,graph=None)
+
+<ul>
+<li>运行ops和计算tensor</li>
+<li>嵌套列表，元组，namedtuple，dict或OrderedDict（重载的运算符也能运行）</li>
+<li>feed_dict 允许调用者覆盖图中指定张量的值，提供给placeholder使用</li>
+<li>返回值异常
+
+<ul>
+<li>RuntimeError：如果它Session处于无效状态（例如已关闭）。</li>
+<li>TypeError：如果fetches或feed_dict键是不合适的类型。</li>
+<li>ValueError：如果fetches或feed_dict键无效或引用Tensor不存在。</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h3 id="toc_4">张量（tensor）</h3>
+
+<ul>
+<li><p>tensorflow依赖的是numpy</p></li>
+<li><p>张量的阶和数据类型</p>
+
+<ul>
+<li>Tensorflow基本的数据格式</li>
+<li>一个类型化的N维数组（tf.Tensor）</li>
+<li>三部分，名字，形状，数据类型</li>
+</ul></li>
+<li><p>张量的属性</p>
+
+<ul>
+<li>graph   张量所属的默认图</li>
+<li>op      张量的操作名</li>
+<li>name    张量的字符串描述</li>
+<li>shape   张量的形状</li>
+</ul></li>
+<li><p>张量的动态形状与静态形状</p>
+
+<ul>
+<li>Tensorflow中，张量具有静态形状和动态形状</li>
+<li>静态形状：
+
+<ul>
+<li>创建一个张量，初始状态的形状
+
+<ul>
+<li>tf.Tensor.get_shape():获取静态形状</li>
+<li>tf.Tensor.set_shape():更新Tensor对象的静态形状，通常用于在不能直接推断的情况下。</li>
+</ul></li>
+</ul></li>
+<li>动态形状：
+
+<ul>
+<li>一种描述原始张量在执行过程中的一种形状（动态变化）</li>
+<li>tf.reshape:创建一个具有不同动态形状的新张量。</li>
+</ul></li>
+<li>要点：
+
+<ul>
+<li>1，转换静态形状的时候，1-D到1-D，2-D到2—D，不能跨阶数改变形状</li>
+<li>2，对于已经固定或者设置静态形状的张量/变量，不能再次设置静态形状</li>
+<li>3，tf.reshape()动态创建新张量时，元素个数不能不匹配</li>
+</ul></li>
+</ul></li>
+<li><p>张量操作-生成张量</p>
+
+<ul>
+<li>固定值张量</li>
+<li><img src="/Users/mac/Desktop/spider/deeplearn/TensorFlowxiangjie/%E5%BC%A0%E9%87%8F%E6%93%8D%E4%BD%9C-%E7%94%9F%E6%88%90%E5%BC%A0%E9%87%8F.jpeg" alt="张量操作-生成张量"></li>
+</ul>
+
+<p><img src="/Users/mac/Desktop/spider/deeplearn/TensorFlowxiangjie/%E5%88%9B%E5%BB%BA%E9%9A%8F%E6%9C%BA%E5%BC%A0%E9%87%8F.jpeg" alt="创建随机张量"></p></li>
+<li><p>正态分布</p></li>
+<li><p><img src="/Users/mac/Desktop/spider/deeplearn/TensorFlowxiangjie/%E6%AD%A3%E6%80%81%E5%88%86%E5%B8%83.jpeg" alt="正态分布"></p></li>
+</ul>
+
+<h3 id="toc_5">变量</h3>
+
+<ul>
+<li>变量也是一种op，是一种特殊的张量，能够进行存储持久化，它的值就是张量，默认被训练。</li>
+<li><p>变量的创建</p>
+
+<ul>
+<li>tf.Variable(initial_value=None,name=None,trainable=True)
+
+<ul>
+<li>创建一个带值initial_value的新变量</li>
+<li>assign(value)-----为变量分配一个新值,返回新值</li>
+<li>eval(session=None)------计算并返回此变量的值</li>
+<li>name属性表示变量的名字</li>
+</ul></li>
+</ul></li>
+<li><p>变量的初始化</p>
+
+<ul>
+<li>tf.global<em>variables</em>initializer()</li>
+<li>添加一个初始化所有变量的op，在会话中开启。</li>
+</ul></li>
+</ul>
+
+<h3 id="toc_6">可视化学习Tensorboard</h3>
+
+<ul>
+<li>数据序列化-events文件
+
+<ul>
+<li>Tensorboard通过读取TensorFlow的事件文件来运行</li>
+</ul></li>
+<li>tf.summary.FileWriter(&quot;/tmp/tensorflow/summary/test/&quot;,graph=)
+
+<ul>
+<li>返回filerwriter，写入事件文件到指定目录（最好用绝对路径），以提供给tensorboard使用</li>
+</ul></li>
+<li>开启
+
+<ul>
+<li>tensorboard --logdir=&quot;/tmp/tensorflow/summary/test/&quot;</li>
+<li>一般浏览器打开为127.0.0.1:6006</li>
+</ul></li>
+<li><p>注：修改程序后，在保存一遍会有新的事件文件，打开默认最新</p></li>
+<li><p>增加变量显示</p></li>
+<li><p>目的：观察模型的参数、损失值等变量值的变化</p>
+
+<ul>
+<li>1，收集变量
+
+<ul>
+<li>tf.summary.sclar(name=&#39;&#39;,tensor)收集对于损失函数和准确率等单值变量，name为变量的名字，tensor为值</li>
+<li>tf.summary.history(name=&#39;&#39;,tensor)收集高纬度的变量参数</li>
+<li>tf.summary.image(name=&#39;&#39;,tensor)收集输入的图片张量能显示图片</li>
+</ul></li>
+<li>2，合并变量写入事件文件
+
+<ul>
+<li>merged = tf.summary.merge_all()</li>
+<li>运行合并：summary = sess.run(merged),每次迭代都需运行</li>
+<li>添加：FileWriter.add_summary(summary,i)i表示第几次的值。</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h3 id="toc_7">tensorflow实现一个简单的线性回归案例</h3>
+
+<ul>
+<li>1，准备好1特征和1目标值(y = x*0.7 + 0.8)</li>
+<li>2，建立模型，准备一个权重w，一个偏置b（随机初始化） y_predict = xw+b（模型的参数必须用变量定义）</li>
+<li>3，求损失函数，均方误差((y1-y1&#39;)^2+....+(y<em>100-y</em>100&#39;)^2)/100</li>
+<li><p>4，梯度下降优化损失的过程，指定学习率</p></li>
+<li><p>Tensorflow运算API</p>
+
+<ul>
+<li>矩阵运算
+
+<ul>
+<li>tf.matmul(x,w)</li>
+</ul></li>
+<li>平方
+
+<ul>
+<li>tf.square(error)</li>
+</ul></li>
+<li>均值
+
+<ul>
+<li>tf.reduce_mean(error)</li>
+</ul></li>
+</ul></li>
+<li><p>梯度下降API</p>
+
+<ul>
+<li>tf.train.GrandientDescentOptimizer(learning_rate)
+
+<ul>
+<li>梯度下降优化</li>
+<li>learning_rate:学习率，一般为</li>
+<li>method：</li>
+<li>minimize(loss)</li>
+<li>return:梯度下降op</li>
+</ul></li>
+</ul></li>
+<li><p>关于梯度爆炸/梯度消失</p>
+
+<ul>
+<li>在极端情况下，权重的值变得非常大，以至于溢出，导致NaN值</li>
+<li>如何解决梯度爆炸问题（深度神经网络（如RNN）当中更容易出现）</li>
+<li>1，重新设计网络</li>
+<li>2，调整学习率</li>
+<li>3，使用梯度截断（在训练过程中检查和限制梯度的大小）</li>
+<li>4，使用激活函数</li>
+</ul></li>
+<li><p>tensorflow变量作用域</p>
+
+<ul>
+<li>tf.variable<em>socpe(&lt;socpe</em>name&gt;)创建指定名字的变量的作用域
+
+<ul>
+<li>观察变量的name改变</li>
+</ul></li>
+<li>嵌套使用变量作用域
+
+<ul>
+<li>观察变量的name改变</li>
+</ul></li>
+</ul></li>
+<li><p>模型保存和加载</p>
+
+<ul>
+<li>tf.train.Saver(var<em>list=None,max</em>to_keep=5)
+
+<ul>
+<li>var_list:指定将要保存和还原的变量。它可以作为一个dict或一个列表传递</li>
+<li>max<em>to</em>keep:指示要保留的最近检查点文件的最大数量。创建新文件时，会删除较旧的文件。如果无或0，则保留所有检查点文件，默认为5（即保留最新的5个检查点文件。）</li>
+</ul></li>
+<li>例如：saver.save(sess,&quot;/tmp/ckpt/test/model&quot;)
+
+<ul>
+<li>saver.restore(sess,&quot;/tmp/ckpt/test/model&quot;)</li>
+</ul></li>
+<li>保存文件格式：checkpoint文件</li>
+</ul></li>
+</ul>
+
+<h3 id="toc_8">线程队列与IO操作</h3>
+
+<ul>
+<li><p>队列和线程</p>
+
+<ul>
+<li><p>队列与队列管理器</p>
+
+<ul>
+<li>Tensorflow队列
+
+<ul>
+<li>在训练样本的时候，希望读入的训练样本是有序的</li>
+<li>tf.FIFOQueue先进先出队列，按顺序出队列</li>
+<li>tf.RandomShuffleQueue随机出队列</li>
+</ul></li>
+<li><p>tf.FIFOQueue</p>
+
+<ul>
+<li>FIFOQueue(capacity,dtypes,name=&#39;fifo_queue&#39;)</li>
+<li>创建一个以先进先出的顺序对元素进行排队的队列
+
+<ul>
+<li>capacity：整数。可能存储在此队列中的元素数量的上限</li>
+<li>dtypes：DType对象列表。长度dtypes必须等于每个队列元素中的张量数，dtype的类型形状，决定了后面进队列元素的形状</li>
+<li>method
+
+<ul>
+<li>dequeue(name=None)</li>
+<li>enqueue(vals,name=None)</li>
+<li>enqueue_many(vals,name=None):vals列表或者元组</li>
+<li>返回一个进队列操作</li>
+<li>size(name=None)</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><p>队列管理器</p>
+
+<ul>
+<li>tf.train.QueueRunner(queue,enqueue_ops=None)</li>
+<li>创建一个QueueRunner
+
+<ul>
+<li>queue:A Queue</li>
+<li>enqueue_ops:添加线程的队列操作列表，[]*2指定两个线程</li>
+<li>create_threads(sess,coord=None,start=False)</li>
+<li>创建线程来运行给定会话的入队操作
+
+<ul>
+<li>start：布尔值，如果True启动线程；如果为False调用者必须调用start()启动线程</li>
+<li>coord：线程协调器，后面线程管理需要用到</li>
+<li>return：线程的实例</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><p>线程协调器</p>
+
+<ul>
+<li>tf.train.Coordinator()</li>
+<li>线程协调员实现一个简单的机制来协调一组线程的终止
+
+<ul>
+<li>request_stop()</li>
+<li>should_stop()检查是否要求停止</li>
+<li>join(threads=None,stop<em>grace</em>period_secs=120)等待线程终止</li>
+<li>return:线程协调员实例</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h3 id="toc_9">文件读取</h3>
+
+<ul>
+<li>1，文件读取API—文件队列构造
+
+<ul>
+<li>tf.train.string<em>input</em>producer(string_tensor,shuffle=True)</li>
+<li>将输出字符串（例如文件名）输入到管道队列
+
+<ul>
+<li>string_tensor:含有文件名的1阶张量，就相当于一个列表（含路径）</li>
+<li>num_epochs：过几遍数据，默认无限过数据</li>
+<li>return：具有输出字符串的队列</li>
+</ul></li>
+</ul></li>
+<li><p>2，文件阅读器</p>
+
+<ul>
+<li>根据文件格式，选择对应的文件阅读器</li>
+<li>class tf.TextLineReader
+
+<ul>
+<li>阅读文本文件逗号分隔值（csv）格式，默认按行读取</li>
+<li>return：读取器实例</li>
+</ul></li>
+<li>tf.FixedLengthRecordReader(record_bytes)
+
+<ul>
+<li>要读取每个记录是固定数量字节的二进制文件</li>
+<li>record_bytes：整型，指定每次读取的字节数</li>
+<li>return：读取器实例</li>
+</ul></li>
+<li>tf.TFRecordReader
+
+<ul>
+<li>读取TfRecords文件</li>
+</ul></li>
+<li>有一个共同的读取方法：</li>
+<li>read(file_queue):从队列中指定数量内容</li>
+<li>返回一个Tensors元组（key文件名字，value默认的内容（行，字节））</li>
+</ul></li>
+<li><p>3，文件内容解码器</p>
+
+<ul>
+<li>由于从文件中读取的是字符串，需要函数去解析这些字符串到张量</li>
+<li>tf.decode<em>csv(records.record</em>defaults=None,field_delim=None,name=None) 将CSV转换为张量，与tf.TextLineReader搭配使用
+
+<ul>
+<li>records:tensor型字符串，每个字符串是csv中的记录行</li>
+<li>field_delim:默认分隔符&quot;,&quot;</li>
+<li>record_defaults:参数决定了所得张量的类型，并且设置一个值在输入字符串中缺少使用默认值</li>
+</ul></li>
+<li>tf.decode<em>raw(bytes,out</em>type,little_endian=None,name=None)</li>
+<li>将字节转换为一个数字向量表示，字节为一字符串类型的张量，与函数tf.FixedLengthRecordReader搭配使用，二进制读取为unit8格式</li>
+</ul></li>
+<li><p>4,开启线程操作</p>
+
+<ul>
+<li>tf.train.start<em>queue</em>runners(sess=None,coord=None)</li>
+<li>收集所有图中的队列线程，并启动线程
+
+<ul>
+<li>sess：所在的会话中</li>
+<li>coord：线程协调器</li>
+<li>return：返回所有线程队列</li>
+</ul></li>
+</ul></li>
+<li><p>5，管道读端批处理</p>
+
+<ul>
+<li>tf.train.batch(tensors,batch<em>size,num</em>threads=1,capacity=32,name=None)
+
+<ul>
+<li>读取指定大小（个数）的张量</li>
+<li>tensor：可以是包含张量的列表</li>
+<li>batch_size：从列表中读取的批处理大小</li>
+<li>num_threads：进入队列的线程数</li>
+<li>capacity：整数，队列中元素的最大数量</li>
+<li>return：tensors</li>
+</ul></li>
+<li>tf.train.shuffle<em>batch(tensors,batch</em>size,capacity,min<em>after</em>dequeue,num_threads=1,)</li>
+<li>乱序读取指定大小（个数）的张量</li>
+<li>min<em>after</em>dequeue:留下队列里的张量个数，能够保持随机打乱 </li>
+</ul></li>
+</ul>
+
+<h3 id="toc_10">图片读取</h3>
+
+<ul>
+<li>图像数字化三要素
+
+<ul>
+<li>三要素：长度，宽度，通道数</li>
+</ul></li>
+<li><p>图像的基本操作 </p>
+
+<ul>
+<li>目的：
+
+<ul>
+<li>1，增加图片数据的统一性</li>
+<li>2，所有图片转换成指定大小</li>
+<li>3，缩小图片数据量，防止增加开销</li>
+</ul></li>
+<li><p>操作：</p>
+
+<ul>
+<li>1，缩小图片大小</li>
+</ul></li>
+<li><p>图像基本操作API</p>
+
+<ul>
+<li>tf.image.resize_images(images,size)---缩小图片
+
+<ul>
+<li>images:4-D形状[batch,height,width,channels]或3—D形状的张量[height,width,channels]的图片数据</li>
+<li>size:1-D int32张量：new<em>height,new</em>width,图像的新尺寸</li>
+<li>返回4-D格式或者3-D格式图片</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><p>图像读取API</p>
+
+<ul>
+<li>图像读取器</li>
+<li>tf.WholeFileReader
+
+<ul>
+<li>将文件的全部内容作为值输出的读取器</li>
+<li>return：读取器实例</li>
+<li>read(file_queue):输出将是一个文件名（key）和该文件的内容（value）</li>
+</ul></li>
+<li>图像解码器</li>
+<li>tf.image.decode_jpeg(contents)
+
+<ul>
+<li>将JPEG编码的图像解码为uint8张量</li>
+<li>return：uint8张量，3-D形状[height,width,channels]</li>
+</ul></li>
+<li>tf.image.decode_png(contents)
+
+<ul>
+<li>将PNG编码的图像解码为uint8或uint16张量</li>
+<li>return：张量类型，3-D形状[height,width,channels]</li>
+</ul></li>
+</ul></li>
+<li><p>图片批处理案例流程</p>
+
+<ul>
+<li>1，构造图片文件队列</li>
+<li>2，构造图片阅读器</li>
+<li>3，读取图片数据</li>
+<li>4，处理图片数据</li>
+</ul></li>
+</ul>
+
+<h3 id="toc_11">TFRecords分析、存取</h3>
+
+<ul>
+<li><p>tensorflow自带的文件格式：</p>
+
+<ul>
+<li>1，方便读取和移动 </li>
+</ul></li>
+<li><p>TFRecords文件分析</p>
+
+<ul>
+<li>文件格式：*.tfrecords</li>
+<li>写入文件内容：Example协议块</li>
+<li>对于每一个样本，都要构造example协议块</li>
+</ul></li>
+<li><p>TFRecords存储</p>
+
+<ul>
+<li><p>1，建立TFRecord存储器</p>
+
+<ul>
+<li>tf.python_io.TFRecordWriter(path)---写入tfrecords文件</li>
+<li>path：TFRecords文件的路径</li>
+<li>return：写文件</li>
+<li>method
+
+<ul>
+<li>writer(record):向文件中写入一个字符串记录(example)</li>
+<li>close()：关闭文件写入器</li>
+<li>注：字符串为一个序列化的Example，Example_SerializeToString()</li>
+</ul></li>
+</ul></li>
+<li><p>2，构造每个样本的Example协议块</p>
+
+<ul>
+<li><p>tf.train.Example(features=None)</p>
+
+<ul>
+<li>写入tfrecords文件</li>
+<li>features：tf.train.Features类型的特征实例</li>
+<li>return：example格式协议块</li>
+</ul></li>
+<li><p>tf.train.Features(feature=None)</p>
+
+<ul>
+<li>构建每个样本的信息键值dui</li>
+<li>feature：字典数据，key为要保存的名字，value为tf.train.Feature实例</li>
+<li>return：Features类型</li>
+</ul></li>
+<li><p>tf.train.Feature(**options)</p>
+
+<ul>
+<li>**options:例如：
+
+<ul>
+<li>bytes_list=tf.train.BytesList(value=[Bytes])</li>
+<li>int64_list=tf.train.Int64List(value=[Value])</li>
+</ul></li>
+</ul></li>
+<li><p>tf.train.Int64List(value=[Value])</p></li>
+<li><p>tf.train.BytesList(value=[Bytes])</p></li>
+<li><p>tf.train.FloatList(value=[value])</p></li>
+</ul></li>
+<li><p>3，TFRecords读取方法</p></li>
+<li><p>同文件阅读器流程，中间需要解析过程</p></li>
+<li><p>解析TFRecords的example协议内存块</p></li>
+<li><p>tf.parse<em>single</em>example(serialized,features=None,name=None)</p>
+
+<ul>
+<li>解析一个单一的Example原型</li>
+<li>serialized：标量字符串Tensor，一个序列化的Example</li>
+<li>features：dict字典数据，键为读取的名字，值为FixedLenFeature</li>
+<li>return：一个键值对组成的字典，键为读取的名字</li>
+</ul></li>
+<li><p>tf.FixedLenFeature(shape,dtype)</p>
+
+<ul>
+<li>shape:输入数据的形状，一般不指定，为空列表</li>
+<li>dtype：输入数据类型，与存储进文件的类型要一致，类型只能是float32，int64，string</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<p>​   </p>
+
+
+
+
+</body>
+
+</html>
