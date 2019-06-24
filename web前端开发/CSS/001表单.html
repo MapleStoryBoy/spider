@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单</title>
+</head>
+<body>
+	<h1>注册表单</h1>
+	<form action="" method="get">		
+		<div>
+			<label for="username">用户名：</label>
+			<input type="text" name="username" id="username" />
+		</div>		
+		<br>
+		<div>
+			<label for="password">密&nbsp;&nbsp;&nbsp;码：</label>
+			<input type="password" name="password" id="password">
+		</div>
+		<br>
+		<div>
+			<label>性&nbsp;&nbsp;&nbsp;别：</label>
+			<input type="radio" name="gender" value="0" id="male"> <label for="male">男</label>
+			<input type="radio" name="gender" value="1" id="female"> <label for="female">女</label>
+		</div>
+		<br>
+		<div>
+			<label>爱&nbsp;&nbsp;&nbsp;好：</label>
+			<input type="checkbox" name="like" value="study"> 学习
+			<input type="checkbox" name="like" value="python"> python
+			<input type="checkbox" name="like" value="frontend"> 前端
+			<input type="checkbox" name="like" value="beauty"> 美少女
+
+		</div>
+
+		<br>
+
+		<div>
+			<label>玉&nbsp;&nbsp;&nbsp;照：</label>
+			<input type="file" name="">
+		</div>
+		<br>
+
+		<div>
+			<label>个人介绍：</label>
+			<textarea name="introduce"></textarea>
+		</div>
+		
+		<br>
+
+		<div>
+			<label>籍&nbsp;&nbsp;&nbsp;贯：</label>
+			<select name="site">
+				<option value="0">北京</option>
+				<option value="1">上海</option>					
+				<option value="2">河南</option>	
+				<option value="3">河北</option>	
+				<option value="4">广州</option>	
+			</select>
+
+		</div>
+		<br>
+
+		<input type="hidden" name="hid01" value="12">
+
+		<div>
+
+
+			<input type="submit" name="" value="提交">
+
+			<!-- <input type="image" src="images/goods.jpg" name=""> -->
+
+
+			<input type="reset" name="" value="重置">
+		</div>
+
+
+	</form>
+</body>
+</html>
