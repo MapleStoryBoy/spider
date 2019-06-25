@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/数据结构/数据结构和算法基础/01_测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构/数据结构和算法基础/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.bumpversion.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.bumpversion.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.cookiecutterrc" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.cookiecutterrc" afterDir="false" />
@@ -79,7 +82,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/数据结构/数据结构和算法基础/01_测试.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/test2_dataframe.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/page3.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/page4.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/page5_iloc.py" />
@@ -152,12 +164,12 @@
         <option value="$PROJECT_DIR$/deeplearn/neurl_network/day01.py" />
         <option value="$PROJECT_DIR$/deeplearn/neurl_network/day02.py" />
         <option value="$PROJECT_DIR$/deeplearn/neurl_network/day03.py" />
+        <option value="$PROJECT_DIR$/数据结构/数据结构和算法基础/01_测试.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="840" />
-    <option name="y" value="39" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="728" />
     <option name="width" value="1057" />
     <option name="height" value="740" />
   </component>
@@ -169,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,19 +192,18 @@
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="web前端开发" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="web前端开发" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构" type="462c0819:PsiDirectoryNode" />
+              <item name="数据结构和算法基础" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,14 +212,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/deeplearn/neurl_network/data" />
       <recent name="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie" />
       <recent name="$PROJECT_DIR$/机器学习/数据降维" />
       <recent name="$PROJECT_DIR$/数据结构/数据分析/练习案例" />
+      <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记" />
     </key>
   </component>
@@ -223,8 +235,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.captcha_train">
-    <configuration name="癌症预测" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.01_测试">
+    <configuration name="01_测试" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,11 +244,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习/逻辑回归" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构/数据结构和算法基础" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习/逻辑回归/癌症预测.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/数据结构和算法基础/01_测试.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -434,27 +446,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="day05" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="spider" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/day05.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="day11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -478,11 +469,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_测试" />
         <item itemvalue="Python.captcha_train" />
         <item itemvalue="Python.day02" />
         <item itemvalue="Python.day01 (1)" />
         <item itemvalue="Python.day11" />
-        <item itemvalue="Python.day05" />
       </list>
     </recent_temporary>
   </component>
@@ -509,14 +500,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="840" y="39" width="1057" height="740" extended-state="1" />
+    <frame x="728" y="0" width="1057" height="740" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.17471042" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.18725869" />
       <window_info id="Structure" order="1" sideWeight="0.50457317" side_tool="true" weight="0.18268467" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.4521605" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.47685185" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39939025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -553,23 +544,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/机器学习/特征工程/文本特征抽取.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" lean-forward="true" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/特征工程/jieba分词.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-          <folding>
-            <element signature="e#1#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/机器学习/数据特征预处理/note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -864,14 +838,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/note.md" />
     <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -882,42 +849,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/qq.py" />
     <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/day11.py" />
-    <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/day01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="88" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/day01.py" />
+    <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/day02.py" />
+    <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/captcha_train.py" />
+    <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/day03.py" />
+    <entry file="file://$PROJECT_DIR$/web前端开发/HTML/day01.html" />
+    <entry file="file://$PROJECT_DIR$/数据结构/数据结构和算法基础/note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/day02.py">
+    <entry file="file://$PROJECT_DIR$/数据结构/数据结构和算法基础/01_测试.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="177" selection-start-line="177" selection-end-line="179" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="157">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/captcha_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="151" column="16" lean-forward="true" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/day03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web前端开发/HTML/day01.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
