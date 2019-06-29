@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/python_zero/re_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_zero/tencent_spider/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_zero/thread_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_zero/thread_demo/demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_zero/urllib库/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_zero/xpath_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_zero/网络编程/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.bumpversion.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.bumpversion.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.cookiecutterrc" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.cookiecutterrc" afterDir="false" />
@@ -71,6 +79,72 @@
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/tests/test_spiders.py" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/tests/test_spiders.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/tests/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/tests/test_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/tox.ini" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/tox.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/02_requests_demo/.idea/02_requests_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/02_requests_demo/.idea/02_requests_demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/02_requests_demo/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/02_requests_demo/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/02_requests_demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/02_requests_demo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/02_requests_demo/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/02_requests_demo/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/02_requests_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/02_requests_demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/02_requests_demo/12306.html" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/02_requests_demo/12306.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/02_requests_demo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/02_requests_demo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/02_requests_demo/baidu.html" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/02_requests_demo/baidu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/02_requests_demo/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/02_requests_demo/demo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/02_requests_demo/demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/02_requests_demo/demo2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/02_requests_demo/demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/02_requests_demo/demo3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/02_requests_demo/demo4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/02_requests_demo/demo4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/02_requests_demo/demo5.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/02_requests_demo/demo5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/02_requests_demo/renren.html" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/02_requests_demo/renren.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/02_requests_demo/requests笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/02_requests_demo/requests笔记.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/02_requests_demo/zl.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/02_requests_demo/zl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/.idea/ajax_spider_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/.idea/ajax_spider_demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/boss.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/boss.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/boss_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/boss_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/demo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/demo10.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/demo10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/demo2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/demo3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/demo4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/demo4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/demo5.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/demo5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/demo6.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/demo6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/demo7.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/demo7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/demo8.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/demo8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/demo9.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/demo9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/lagou.csv" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/lagou.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/lagou1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/lagou1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/lagou2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/lagou2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/lagou_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/lagou_requests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/ajax_spider_demo/lagou_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/lagou_selenium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/beautifulsoup_demo/.idea/beautifulsoup_demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/beautifulsoup_demo/.idea/beautifulsoup_demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/beautifulsoup_demo/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/beautifulsoup_demo/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/beautifulsoup_demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/beautifulsoup_demo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/beautifulsoup_demo/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/beautifulsoup_demo/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/beautifulsoup_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/beautifulsoup_demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/beautifulsoup_demo/BeautifulSoup笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/beautifulsoup_demo/BeautifulSoup笔记.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/beautifulsoup_demo/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/beautifulsoup_demo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/beautifulsoup_demo/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/beautifulsoup_demo/demo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/beautifulsoup_demo/demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/beautifulsoup_demo/demo2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/beautifulsoup_demo/demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/beautifulsoup_demo/demo3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/beautifulsoup_demo/demo4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/beautifulsoup_demo/demo4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/beautifulsoup_demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/beautifulsoup_demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/urllib库/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/csv_demo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/urllib库/cookie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/urllib库/cookie.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/urllib库/demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/urllib库/demo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/urllib库/demo2.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/urllib库/demo2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/urllib库/demo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/urllib库/demo3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/urllib库/demo4.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/urllib库/demo4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/urllib库/demo5.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/urllib库/demo5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/urllib库/demo6.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/urllib库/demo6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/urllib库/demo7.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/urllib库/demo7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/urllib库/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/urllib库/note.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/urllib库/renren.html" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/urllib库/renren.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/urllib库/urllib笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/urllib库/urllib笔记.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/网络编程/01-socket的基本使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/网络编程/01-socket的基本使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py基础篇/网络编程/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/json_demo/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,17 +153,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py基础篇/urllib库/demo6.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -111,9 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/page5_iloc.py" />
-        <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/pandas布尔索引.py" />
-        <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/缺失值处理.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/test02.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/read_movie.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/统计分类情况.py" />
@@ -162,12 +223,15 @@
         <option value="$PROJECT_DIR$/数据结构/数据结构和算法基础/01_测试.py" />
         <option value="$PROJECT_DIR$/数据结构/数据结构和算法基础/02_list.py" />
         <option value="$PROJECT_DIR$/py基础篇/网络编程/01-socket的基本使用.py" />
+        <option value="$PROJECT_DIR$/py基础篇/thread_demo/demo1.py" />
+        <option value="$PROJECT_DIR$/py基础篇/thread_demo/demo2.py" />
+        <option value="$PROJECT_DIR$/py基础篇/csv_demo/demo1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="523" />
-    <option name="y" value="19" />
+    <option name="x" value="391" />
+    <option name="y" value="101" />
     <option name="width" value="1057" />
     <option name="height" value="740" />
   </component>
@@ -189,7 +253,13 @@
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="py基础篇" type="462c0819:PsiDirectoryNode" />
+              <item name="python_zero" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="python_zero" type="462c0819:PsiDirectoryNode" />
+              <item name="thread_demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,15 +274,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/py基础篇" />
+      <recent name="$PROJECT_DIR$/py基础篇/urllib库" />
       <recent name="$PROJECT_DIR$/deeplearn/neurl_network/data" />
       <recent name="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie" />
       <recent name="$PROJECT_DIR$/机器学习/数据降维" />
-      <recent name="$PROJECT_DIR$/数据结构/数据分析/练习案例" />
-      <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -227,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.demo6">
+  <component name="RunManager" selected="Python.main">
     <configuration name="决策树" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -312,7 +382,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -320,11 +390,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py基础篇/urllib库" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py基础篇/json_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py基础篇/urllib库/demo2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py基础篇/json_demo/demo1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,7 +403,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo1 (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -341,11 +411,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py基础篇/urllib库" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_zero/json_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py基础篇/urllib库/demo4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_zero/json_demo/demo1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -354,7 +424,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -362,11 +432,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py基础篇/urllib库" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_zero/re_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py基础篇/urllib库/demo5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_zero/re_demo/demo2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -375,7 +445,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gushiwen" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -383,11 +453,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py基础篇/urllib库" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_zero/re_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py基础篇/urllib库/demo6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_zero/re_demo/gushiwen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -396,7 +466,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -404,11 +474,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py基础篇/urllib库" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_zero/tencent_spider" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py基础篇/urllib库/demo7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_zero/tencent_spider/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -419,11 +489,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.demo6" />
-        <item itemvalue="Python.demo7" />
-        <item itemvalue="Python.demo5" />
-        <item itemvalue="Python.demo4" />
-        <item itemvalue="Python.demo2" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.gushiwen" />
+        <item itemvalue="Python.demo2 (1)" />
+        <item itemvalue="Python.demo1 (3)" />
+        <item itemvalue="Python.demo1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -450,14 +520,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="523" y="19" width="1057" height="740" extended-state="0" />
+    <frame x="391" y="101" width="1057" height="740" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.33880308" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.23455599" />
       <window_info id="Structure" order="1" sideWeight="0.50457317" side_tool="true" weight="0.18268467" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.47685185" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.45061728" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39939025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -494,131 +564,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/机器学习/机器学习概述/day3_02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/pandas/core/indexes/datetimes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43519">
-          <caret line="174" column="6" selection-start-line="174" selection-start-column="6" selection-end-line="174" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/机器学习概述/朴素贝叶斯算法.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/机器学习概述/KNN算法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="79" column="50" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/决策树和随机森林/note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/机器学习概述/朴素贝叶斯.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/决策树和随机森林/tree.dot">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/决策树和随机森林/tree.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/决策树和随机森林/决策树.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="42" selection-end-column="29" />
-          <folding>
-            <element signature="e#1#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/决策树和随机森林/随机森林.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="60" column="14" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/线性回归/note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/逻辑回归/note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/线性回归/线性回归.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/sklearn/linear_model/logistic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1432">
-          <caret line="1779" column="46" lean-forward="true" selection-start-line="1779" selection-start-column="46" selection-end-line="1779" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/机器学习/逻辑回归/癌症预测.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-          <folding>
-            <element signature="e#1#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deeplearn/TensorFlowxiangjie/note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/site-packages/tensorflow/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Django学习和项目/note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -741,14 +686,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/数据结构/数据结构和算法基础/02_list.py" />
-    <entry file="file://$PROJECT_DIR$/py基础篇/网络编程/01-socket的基本使用.py">
+    <entry file="file://$PROJECT_DIR$/python_zero/网络编程/01-socket的基本使用.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py基础篇/urllib库/note.md">
+    <entry file="file://$PROJECT_DIR$/python_zero/urllib库/note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -756,7 +701,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py基础篇/urllib库/demo1.py">
+    <entry file="file://$PROJECT_DIR$/python_zero/urllib库/demo1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
@@ -766,43 +711,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py基础篇/urllib库/demo2.py">
+    <entry file="file://$PROJECT_DIR$/python_zero/urllib库/demo2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py基础篇/urllib库/demo4.py">
+    <entry file="file://$PROJECT_DIR$/python_zero/urllib库/demo4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py基础篇/urllib库/renren.html">
+    <entry file="file://$PROJECT_DIR$/python_zero/urllib库/renren.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py基础篇/urllib库/demo5.py">
+    <entry file="file://$PROJECT_DIR$/python_zero/urllib库/demo5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py基础篇/urllib库/demo7.py">
+    <entry file="file://$PROJECT_DIR$/python_zero/urllib库/demo7.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py基础篇/urllib库/demo6.py">
+    <entry file="file://$PROJECT_DIR$/python_zero/urllib库/demo6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
+        <state relative-caret-position="196">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/beautifulsoup_demo/demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/beautifulsoup_demo/demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/beautifulsoup_demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/beautifulsoup_demo/demo4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/beautifulsoup_demo/demo3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/ajax_spider_demo/demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/ajax_spider_demo/demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py基础篇/thread_demo/demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/thread_demo/demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="11" selection-start-line="1" selection-end-line="20" />
+          <folding>
+            <element signature="e#1#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/csv_demo/classroo1.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/csv_demo/demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/csv_demo/.idea/csv_demo.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/re_demo/gushiwen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/re_demo/demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/json_demo/demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/csv_demo/demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/tencent_spider/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

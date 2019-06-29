@@ -1,0 +1,53 @@
+# xpath语法：
+
+## 使用方式：
+使用//获取整个页面当中的元素，然后写标签名，然后再写谓词进行提取。比如：
+```
+//div[@class='abc']
+```
+
+## 需要注意的知识点：
+1. /和//的区别：/代表只获取直接子节点。//获取子孙节点。一般//用得比较多。当然也要视情况而定。
+2. contains：有时候某个属性中包含了多个值，那么可以使用`contains`函数。示例代码如下：
+    ```
+    //div[contains(@class,'job_detail')]
+    ```
+3. 谓词中的下标是从1开始的，不是从0开始的。
+
+## 使用lxml解析HTML代码：
+1. 解析html字符串：使用`lxml.etree.HTML`进行解析。示例代码如下：
+    ```python
+    htmlElement = etree.HTML(text)
+    print(etree.tostring(htmlElement,encoding='utf-8').decode("utf-8"))
+    ```
+2. 解析html文件：使用`lxml.etree.parse`进行解析。示例代码如下：
+    ```python
+    htmlElement = etree.parse("tencent.html")
+    print(etree.tostring(htmlElement, encoding='utf-8').decode('utf-8'))
+    ```
+    这个函数默认使用的是`XML`解析器，所以如果碰到一些不规范的`HTML`代码的时候就会解析错误，这时候就要自己创建`HTML`解析器。
+    ```python
+    parser = etree.HTMLParser(encoding='utf-8')
+    htmlElement = etree.parse("lagou.html",parser=parser)
+    print(etree.tostring(htmlElement, encoding='utf-8').decode('utf-8'))
+    ```
+
+    ## lxml结合xpath注意事项：
+    1. 使用`xpath`语法。应该使用`Element.xpath`方法。来执行xpath的选择。示例代码如下：
+        ```python
+        trs = html.xpath("//tr[position()>1]")
+        ```
+    `xpath函数`返回来的永远是一个列表。
+    2. 获取某个标签的属性：
+        ```python
+        href = html.xpath("//a/@href")
+        # 获取a标签的href属性对应的值
+        ```
+    3. 获取文本，是通过`xpath`中的`text()`函数。示例代码如下：
+        ```python
+        address = tr.xpath("./td[4]/text()")[0]
+        ```
+    4. 在某个标签下，再执行xpath函数，获取这个标签下的子孙元素，那么应该在斜杠之前加一个点，代表是在当前元素下获取。示例代码如下：
+        ```python
+         address = tr.xpath("./td[4]/text()")[0]
+        ```
