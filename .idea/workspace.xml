@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_zero/ajax_spider_demo/demo6.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/demo6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.bumpversion.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.bumpversion.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.cookiecutterrc" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.cookiecutterrc" afterDir="false" />
@@ -79,17 +81,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python_zero/selenium_chorme_demo/demo1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -111,7 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/read_movie.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/统计分类情况.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/索引和复合索引.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/数据的分组和聚合1.py" />
@@ -162,12 +153,13 @@
         <option value="$PROJECT_DIR$/py基础篇/thread_demo/demo2.py" />
         <option value="$PROJECT_DIR$/py基础篇/csv_demo/demo1.py" />
         <option value="$PROJECT_DIR$/python_zero/selenium_chorme_demo/demo1.py" />
+        <option value="$PROJECT_DIR$/python_zero/ajax_spider_demo/demo6.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="752" />
-    <option name="y" value="28" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="676" />
+    <option name="y" value="27" />
     <option name="width" value="1057" />
     <option name="height" value="740" />
   </component>
@@ -179,6 +171,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,22 +179,10 @@
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="python_zero" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="python_zero" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium_chorme_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,28 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.demo1">
-    <configuration name="02_qiubai" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="spider" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day05/code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day05/code/02_qiubai.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.demo6">
     <configuration name="文本特征抽取" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,6 +228,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习/特征工程/文本特征抽取.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02_qiubai" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day05/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day05/code/02_qiubai.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -339,7 +320,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gushiwen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo6" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -347,11 +328,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_zero/re_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_zero/ajax_spider_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_zero/re_demo/gushiwen.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_zero/ajax_spider_demo/demo6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -404,11 +385,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo6" />
         <item itemvalue="Python.demo1" />
         <item itemvalue="Python.selenium爬取淘宝商品" />
         <item itemvalue="Python.02_qiubai" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.gushiwen" />
       </list>
     </recent_temporary>
   </component>
@@ -435,10 +416,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="752" y="28" width="1057" height="740" extended-state="0" />
-    <editor active="true" />
+    <frame x="676" y="27" width="1057" height="740" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.13127413" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.21428572" />
       <window_info id="Structure" order="1" sideWeight="0.50457317" side_tool="true" weight="0.18268467" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -480,7 +460,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/day01.py" />
     <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/day02.py" />
     <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/captcha_train.py" />
     <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/day03.py" />
@@ -758,10 +737,20 @@
     <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/解析库的使用/实例.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/ajax_spider_demo/demo6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python_zero/selenium_chorme_demo/demo1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="272">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#1#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

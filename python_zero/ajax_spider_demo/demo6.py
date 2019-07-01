@@ -4,8 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 
-driver_path = r"D:\ProgramApp\chromedriver\chromedriver.exe"
-driver = webdriver.Chrome(executable_path=driver_path)
+#driver_path = r"D:\ProgramApp\chromedriver\chromedriver.exe"
+driver = webdriver.Chrome()
 driver.get('https://www.baidu.com/')
 
 for cookie in driver.get_cookies():
