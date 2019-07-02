@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_zero/ajax_spider_demo/demo6.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/ajax_spider_demo/demo6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_zero/scrapy_demo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_zero/scrapy_demo/bmw/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_zero/scrapy_demo/captcha_recognizer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_zero/scrapy_demo/douban_login/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_zero/scrapy_demo/qsbk/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_zero/scrapy_demo/renren_login/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_zero/scrapy_demo/wxapp/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.bumpversion.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.bumpversion.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.cookiecutterrc" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.cookiecutterrc" afterDir="false" />
@@ -158,8 +163,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
-    <option name="y" value="27" />
+    <option name="x" value="367" />
+    <option name="y" value="19" />
     <option name="width" value="1057" />
     <option name="height" value="740" />
   </component>
@@ -179,6 +184,11 @@
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="python_zero" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -191,15 +201,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python_zero" />
       <recent name="$PROJECT_DIR$/py基础篇" />
       <recent name="$PROJECT_DIR$/py基础篇/urllib库" />
       <recent name="$PROJECT_DIR$/deeplearn/neurl_network/data" />
       <recent name="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie" />
-      <recent name="$PROJECT_DIR$/机器学习/数据降维" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -416,7 +426,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="27" width="1057" height="740" extended-state="0" />
+    <frame x="367" y="19" width="1057" height="740" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.21428572" />
       <window_info id="Structure" order="1" sideWeight="0.50457317" side_tool="true" weight="0.18268467" />
