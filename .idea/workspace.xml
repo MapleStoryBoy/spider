@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python_zero/scrapy_demo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_zero/scrapy_demo/bmw/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_zero/scrapy_demo/captcha_recognizer/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_zero/scrapy_demo/douban_login/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_zero/scrapy_demo/qsbk/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_zero/scrapy_demo/renren_login/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_zero/scrapy_demo/wxapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web前端开发/Javascript/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.bumpversion.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.bumpversion.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.cookiecutterrc" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.cookiecutterrc" afterDir="false" />
@@ -86,7 +81,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web前端开发/Javascript/002属性操作.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -162,9 +167,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="367" />
-    <option name="y" value="19" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="257" />
+    <option name="y" value="46" />
     <option name="width" value="1057" />
     <option name="height" value="740" />
   </component>
@@ -187,7 +192,13 @@
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="python_zero" type="462c0819:PsiDirectoryNode" />
+              <item name="web前端开发" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="web前端开发" type="462c0819:PsiDirectoryNode" />
+              <item name="Javascript" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -426,7 +437,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="367" y="19" width="1057" height="740" extended-state="0" />
+    <frame x="257" y="46" width="1057" height="740" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.21428572" />
       <window_info id="Structure" order="1" sideWeight="0.50457317" side_tool="true" weight="0.18268467" />
@@ -470,7 +482,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/day02.py" />
     <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/captcha_train.py" />
     <entry file="file://$PROJECT_DIR$/deeplearn/neurl_network/day03.py" />
     <entry file="file://$PROJECT_DIR$/web前端开发/HTML/day01.html" />
@@ -761,6 +772,13 @@
           <folding>
             <element signature="e#1#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web前端开发/Javascript/002属性操作.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>
