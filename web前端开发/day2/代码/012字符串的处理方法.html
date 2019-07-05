@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>字符串的处理方法</title>
+	<script type="text/javascript">
+		
+		var iNum01 = 12;
+		var sNum02 = '24';
+		var sTr = 'abc';
+
+		// 数字和字符串相加等同于字符串拼接
+		//alert(iNum01+sNum02);  // 弹出 1224
+
+		//alert(sNum02+sTr);  // 弹出 24abc
+
+
+		var sTr02 = '12.35';
+
+		//将字符串的小数转化成整数
+		//alert(parseInt(sTr02));  // 弹出12
+
+		//将字符串的小数转化成小数
+		//alert(parseFloat(sTr02));
+
+
+		var sTr03 = '2017-4-22';
+
+		var aRr = sTr03.split("-");
+
+		//alert(aRr); // 弹出['2017','4','22'];
+
+
+		var aRr2 = sTr03.split("");
+
+		//alert(aRr2); // 弹出['2','0','1','7','-','4','-','2','2']
+
+
+		var sTr04 = '#div';
+
+
+		var sTr05 = sTr04.charAt(0);
+
+		// alert(sTr05); 弹出 #
+
+		var sTr06 = 'abcdef microsoft asldjfl';
+
+		var iNum03 = sTr06.indexOf('microsoft');
+
+		var iNum04 = sTr06.indexOf('yahei');
+
+		//alert(iNum03);  // 存在 弹出字符串对应的索引值 7
+ 
+		//alert(iNum04);  // 不存在  弹出 -1
+
+
+		var sTr07 = 'abcdef123456edfg';
+
+		var sTr08 = sTr07.substring(6,12);
+
+		var sTr09 = sTr04.substring(1);
+
+		//alert(sTr08);
+
+		//alert(sTr09);
+
+
+		var sTr10 = 'abcdef';
+
+		var sTr11 = sTr10.toUpperCase();
+
+		alert(sTr11);
+
+		var  sTr12 = '1234j3290850ljdlsjlfajdlkskdfj';
+		var sTr13 = sTr12.split('').reverse().join('');
+
+		alert(sTr13);
+
+
+
+
+
+
+
+
+
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

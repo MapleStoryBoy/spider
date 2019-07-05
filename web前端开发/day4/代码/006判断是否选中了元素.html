@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+
+			$div = $('#div1');
+
+			alert($div.length);
+
+
+			// 没有选中元素，也不会报错，程序正常运行
+			$div2 = $('#div2');
+
+
+			alert($div2.length);
+			// if($div2.length>0) 通过length属性来判断是否选中了元素
+
+
+		})
+	</script>
+</head>
+<body>
+	<div id="div1">div元素</div>
+	
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			var oBody = document.getElementById('body01');
+			var sData = window.location.search;
+			alert(sData);
+
+			var sHash = window.location.hash;
+			alert(sHash);
+
+			if(sData!='')
+			{
+				var aRr = sData.split("=");
+				var iNum = aRr[1];
+				
+				if(iNum==1)
+				{
+					oBody.style.backgroundColor = 'gold';
+				}
+				else if(iNum==2)
+				{
+					oBody.style.backgroundColor = 'green';
+				}
+				else
+				{
+					oBody.style.backgroundColor = 'pink';
+				}
+			}
+		}
+
+	</script>
+</head>
+<body id="body01">
+	<h1>007页面</h1>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">		
+		$(function(){
+
+			var $div = $('#div1');
+			$div.css({'color':'red'});
+
+
+			var $div2 = $('.box');
+			$div2.css({'color':'green'});
+
+
+			var $li = $('.list li');
+			// 带“-”的样式属性，可以写成驼峰式，也可以写成原始
+			$li.css({'background-color':'pink','color':'red'});
+
+		});
+
+	</script>
+</head>
+
+<body>
+	<div id="div1">这是一个div元素</div>
+
+	<div class="box">这是第二个div元素</div>
+	<div class="box">这是第三个div元素</div>
+
+	<!-- ul.list>li{$}*8 -->
+
+	<ul class="list">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+		<li>6</li>
+		<li>7</li>
+		<li>8</li>
+	</ul>
+
+</body>
+</html>

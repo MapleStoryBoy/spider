@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		window.onload = function(){
+
+			var oDiv = document.getElementById('div1');
+
+
+			var iLeft = 0;
+			/*
+			var timer = setInterval(moving,30);
+			function moving(){
+				iLeft += 3;
+				oDiv.style.left = iLeft + 'px';
+			}
+			*/
+			var timer = setInterval(function(){
+
+				iLeft += 3;
+				oDiv.style.left = iLeft + 'px';
+
+				if(iLeft>700)
+				{
+					clearInterval(timer);
+				}
+
+			},30);
+		}
+	</script>
+	<style type="text/css">		
+		.box{
+			width:200px;
+			height:200px;
+			background-color:gold;
+			position:absolute;
+			left:0;
+			top:100px;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="div1" class="box"></div>
+</body>
+</html>

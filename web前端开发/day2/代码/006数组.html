@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		
+		// 通过类实例化来创建数组
+		var aList01 = new Array(1,2,3);
+
+
+		// 通过直接量的方式创建数组
+		var aList02 = ['a',2,3];
+
+
+		// 通过length来获取数组成员的个数
+		//alert(aList02.length);
+
+		// 通过下标操作数组的某个成员
+		//alert(aList02[0]);
+
+
+		// 通过push方法在数组的后面增加成员
+		aList02.push('b');
+
+		//alert(aList02); // 弹出a,2,3,b
+
+		aList02.pop();
+		//alert(aList02); // 弹出a,2,3
+
+		aList02.unshift('b');
+		//alert(aList02);  // 弹出b,a,2,3
+
+		aList02.shift();
+		//alert(aList02); // 弹出a,2,3
+
+
+		aList02.reverse();
+		//alert(aList02); // 弹出3,2,a
+
+
+		var aList03 = ['a','b','c','d','a','b'];
+		//alert(aList03.indexOf('b')); //弹出1
+
+
+		// 第一个参数是开始的位置，第二个参是从起始位置删除多少个成员，第三个（包括第三个）之后是要增加的成员的值
+		aList03.splice(1,0,'e');
+
+		//alert(aList03); // 弹出 a,e,b,c,d,a,b
+
+
+
+		aList03.splice(1,2,'f','g');
+		//alert(aList03); // 弹出 a,f,g,c,d,a,b
+
+
+		var sTr = aList03.join("-");  // 数组执行方法后返回一个字符串
+		alert(sTr);
+
+
+		var sTr2 = aList03.join("");
+
+		alert(sTr2);
+
+
+
+
+
+
+
+
+
+
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
