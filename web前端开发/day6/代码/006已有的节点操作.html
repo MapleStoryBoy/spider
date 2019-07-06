@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+
+			
+			//$('#p1').insertBefore($('#title01'));
+
+			$('#title01').before($('#p1'));
+
+
+			$('#span01').appendTo($('#p1'));
+
+			$('#link01').prependTo($('#p1'));
+
+
+			$('#title01').remove();
+
+
+
+		})
+
+
+
+
+	</script>
+</head>
+<body>
+	
+	<h1 id="title01">这是一个H1元素</h1>
+	<p id="p1">这是一个p元素</p>
+
+	<span id="span01">这是一个span元素</span>
+	<a href="#" id='link01'>链接</a>
+
+
+</body>
+</html>

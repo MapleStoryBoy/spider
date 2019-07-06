@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		
+		$(function(){
+
+			// 鼠标移入，移入的子元素也会触发
+			$('.con').mouseover(function(){
+				alert('移入');
+			})
+
+			$('.con').mouseout(function(){
+				alert('移出');
+			})
+
+
+			// 鼠标移入，移入的子元素不会触发
+			/*
+
+			$('.con2').mouseenter(function(){
+				alert('移入');
+			})
+
+			$('.con2').mouseleave(function(){
+				alert('移出');
+			})
+			
+			合并成下面的写法：
+
+			*/
+
+
+			$('.con2').hover(function(){
+				alert('移入')
+			},function(){
+				alert('移出')
+			})
+
+
+
+		})
+
+
+
+
+	</script>
+	<style type="text/css">
+		.con,.con2{
+			width:200px;
+			height:200px;
+			background-color:gold;
+		}
+
+		.box,.box2{
+			width:100px;
+			height:100px;
+			background-color:green;
+		}
+	</style>
+</head>
+<body>
+	<div class="con">
+		<div class="box"></div>
+	</div>
+	
+	<br />
+	<br />
+	<br />
+	<br />
+
+
+	<div class="con2">
+		<div class="box2"></div>
+	</div>
+
+
+</body>
+</html>

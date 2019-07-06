@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		
+		$(function(){
+
+			var $div = $('.box');
+
+
+			$div.click(function(){		
+
+				var oPos = $div.offset();
+
+				document.title = oPos.left + "|" + oPos.top;
+
+			})
+
+			
+
+			//console.log(oPos);
+
+
+		})
+
+
+	</script>
+</head>
+<style type="text/css">
+	.box{
+		width:200px;
+		height:200px;
+		background-color:gold;
+		margin:50px auto 0;
+	}
+</style>
+<body>
+	<div class="box">
+		
+	</div>
+</body>
+</html>

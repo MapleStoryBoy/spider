@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+				// event 是发生事件的时候的事件对象，使用的时候，通过第一个参数传进来
+				$('.son').click(function(event){
+					
+					alert(1);
+
+					//通过event对象上的stopPropagation的方法阻止事件冒泡
+					//event.stopPropagation();
+
+				})
+
+				$('.father').click(function(event){
+					alert(2);
+
+					event.stopPropagation();
+				})	
+
+				$('.grandfather').click(function(){
+					alert(3);
+
+					// 阻止事件冒泡和阻止默认行为的统一写法：
+					return false;
+				})
+
+
+				$(document).click(function(){
+					alert(4);
+				})
+
+		})
+
+	</script>
+	<style type="text/css">
+		
+		.grandfather{
+			width:300px;
+			height:300px;
+			background-color:green;
+
+			position:relative;
+		}
+
+		.father{
+			width:200px;
+			height:200px;
+			background-color:gold;
+		}
+
+
+		.son{
+			width:100px;
+			height:100px;
+			background-color: red;
+			position:absolute;
+
+			left:0;
+
+			top:400px;
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<div class="grandfather">		
+		<div class="father">			
+			<div class="son"></div>
+		</div>
+	</div>
+</body>
+</html>

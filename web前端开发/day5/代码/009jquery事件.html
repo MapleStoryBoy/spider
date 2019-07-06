@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		
+		$(function(){
+
+
+			// 在获得焦点的时候做什么事情
+			/*$('#input01').focus(function(){
+				alert('获得焦点')
+			})*/
+
+			//focus 一般用来让input元素开始就获取焦点，只能是一个元素获得焦点
+			$('#input01').focus();
+
+
+			$('#input01').blur(function(){
+
+				// 获取input元素的value值用 val()
+				var sVal = $(this).val();
+				alert(sVal);
+
+			})
+
+
+			$('#form1').submit(function(){
+
+				//alert('提交');
+
+				// 阻止默认的提交行为
+				return false;
+
+			})
+
+
+
+
+		})
+
+
+
+
+	</script>
+</head>
+<body>
+	<form id="form1" action="http://www.baidu.com">
+		<input type="text" name="dat01" id="input01">
+		<input type="text" name="dat02" id="input02">
+		<input type="submit" name="" value="提交" id="sub">
+	</form>
+</body>
+</html>
