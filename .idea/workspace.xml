@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web前端开发/day5/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.bumpversion.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.bumpversion.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.cookiecutterrc" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.cookiecutterrc" afterDir="false" />
@@ -175,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="372" />
     <option name="y" value="224" />
     <option name="width" value="1057" />
@@ -207,6 +206,12 @@
               <item name="spider" type="462c0819:PsiDirectoryNode" />
               <item name="web前端开发" type="462c0819:PsiDirectoryNode" />
               <item name="day5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="web前端开发" type="462c0819:PsiDirectoryNode" />
+              <item name="day6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -445,7 +450,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="257" y="46" width="1057" height="740" extended-state="0" />
+    <frame x="372" y="224" width="1057" height="740" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.21428572" />
       <window_info id="Structure" order="1" sideWeight="0.50457317" side_tool="true" weight="0.18268467" />

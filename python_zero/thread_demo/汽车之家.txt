@@ -1,0 +1,3 @@
+url1 = 'https://car2.autoimg.cn/cardfs/product/g13/M11/DB/A2/t_autohomecar__wKjByllHd6WAHpGJAAhneu2Lr6s454.jpg'
+
+url2 = 'https://car2.autoimg.cn/cardfs/product/g13/M11/DB/A2/1024x0_1_q87_autohomecar__wKjByllHd6WAHpGJAAhneu2Lr6s454.jpg'
