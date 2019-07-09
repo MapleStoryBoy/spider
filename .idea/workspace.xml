@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd8e666f-9e06-49cd-aff2-1bd1a26a7e77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/single_cycle_link_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_zero/scrapy_demo/qsbk/duanzi.json" beforeDir="false" afterPath="$PROJECT_DIR$/python_zero/scrapy_demo/qsbk/duanzi.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.bumpversion.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.bumpversion.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.cookiecutterrc" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/.cookiecutterrc" afterDir="false" />
@@ -72,6 +74,10 @@
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/tests/test_spiders.py" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/tests/test_spiders.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/tests/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/tests/test_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/tox.ini" beforeDir="false" afterPath="$PROJECT_DIR$/python爬虫开发与项目实战笔记/通用爬虫/day11/code/scrapy-redis/tox.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/数据结构和算法基础/01_测试.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/数据结构和算法基础/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/数据结构和算法基础/list内置操作的时间复杂度.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/数据结构和算法基础/note.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +86,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_zero/scrapy_demo/wxapp/start.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_zero/scrapy_demo/wxapp/wxapp/spiders/wxapp_spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-164" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_zero/tencent_spider/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_zero/weather_spider/spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#18#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_zero/selenium_chorme_demo/demo1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <folding>
+                <element signature="e#1#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -102,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/统计分类情况.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记/索引和复合索引.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/数据的分组和聚合1.py" />
         <option value="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/练习.py" />
@@ -153,12 +208,12 @@
         <option value="$PROJECT_DIR$/py基础篇/csv_demo/demo1.py" />
         <option value="$PROJECT_DIR$/python_zero/selenium_chorme_demo/demo1.py" />
         <option value="$PROJECT_DIR$/python_zero/ajax_spider_demo/demo6.py" />
+        <option value="$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/single_cycle_link_list.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="12" />
+    <option name="x" value="742" />
     <option name="width" value="1057" />
     <option name="height" value="740" />
   </component>
@@ -180,23 +235,83 @@
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="Django学习和项目" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
-              <item name="Flask项目和学习" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
               <item name="python_zero" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spider" type="b2602c69:ProjectViewProjectNode" />
               <item name="spider" type="462c0819:PsiDirectoryNode" />
               <item name="python_zero" type="462c0819:PsiDirectoryNode" />
-              <item name="飞机大战" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="python_zero" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="captcha_recognizer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="python_zero" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="qsbk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="python_zero" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="qsbk" type="462c0819:PsiDirectoryNode" />
+              <item name="qsbk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="python_zero" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="wxapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="python_zero" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="wxapp" type="462c0819:PsiDirectoryNode" />
+              <item name="wxapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="python_zero" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="wxapp" type="462c0819:PsiDirectoryNode" />
+              <item name="wxapp" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="python_zero" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium_chorme_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="python_zero" type="462c0819:PsiDirectoryNode" />
+              <item name="tencent_spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="python_zero" type="462c0819:PsiDirectoryNode" />
+              <item name="weather_spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="python_zero" type="462c0819:PsiDirectoryNode" />
+              <item name="xpath_demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -211,15 +326,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/python_zero" />
       <recent name="$PROJECT_DIR$/py基础篇" />
       <recent name="$PROJECT_DIR$/py基础篇/urllib库" />
       <recent name="$PROJECT_DIR$/deeplearn/neurl_network/data" />
       <recent name="$PROJECT_DIR$/deeplearn/TensorFlowxiangjie" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/数据结构/数据分析/numpy和pandas/pandas笔记" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -234,28 +349,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.plane_main">
-    <configuration name="归一化" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="spider" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习/数据特征预处理" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习/数据特征预处理/归一化.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.demo1">
     <configuration name="day01" type="PythonConfigurationType" factoryName="Python">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -277,7 +371,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,11 +379,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_zero/ajax_spider_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_zero/selenium_chorme_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_zero/ajax_spider_demo/demo6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_zero/selenium_chorme_demo/demo1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -298,7 +392,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hm_03_创建游戏窗口" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -306,11 +400,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_zero/飞机大战" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_zero/tencent_spider" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_zero/飞机大战/hm_03_创建游戏窗口.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_zero/tencent_spider/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -319,7 +413,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hm_04_绘制图像" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -327,11 +421,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_zero/飞机大战" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_zero/weather_spider" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_zero/飞机大战/hm_04_绘制图像.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_zero/weather_spider/spider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -340,7 +434,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="plane_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="start (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -348,11 +442,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_zero/飞机大战" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_zero/scrapy_demo/qsbk" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_zero/飞机大战/plane_main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_zero/scrapy_demo/qsbk/start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -361,7 +455,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="plane_sprites" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="start (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -369,11 +463,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_zero/飞机大战" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_zero/scrapy_demo/wxapp" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_zero/飞机大战/plane_sprites.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_zero/scrapy_demo/wxapp/start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -384,11 +478,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.plane_main" />
-        <item itemvalue="Python.hm_03_创建游戏窗口" />
-        <item itemvalue="Python.hm_04_绘制图像" />
-        <item itemvalue="Python.plane_sprites" />
-        <item itemvalue="Python.demo6" />
+        <item itemvalue="Python.demo1" />
+        <item itemvalue="Python.spider" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.start (3)" />
+        <item itemvalue="Python.start (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -415,14 +509,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="12" width="1057" height="740" extended-state="0" />
+    <frame x="543" y="41" width="1057" height="740" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.28861004" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49542683" visible="true" weight="0.27509654" />
       <window_info id="Structure" order="1" sideWeight="0.50457317" side_tool="true" weight="0.18268467" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.18055555" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39939025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -459,138 +554,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python_zero/urllib库/demo7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/urllib库/demo6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/beautifulsoup_demo/demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/beautifulsoup_demo/demo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/beautifulsoup_demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/beautifulsoup_demo/demo4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/beautifulsoup_demo/demo3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/ajax_spider_demo/demo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/ajax_spider_demo/demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py基础篇/thread_demo/demo2.py" />
-    <entry file="file://$PROJECT_DIR$/python_zero/thread_demo/demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="11" selection-start-line="1" selection-end-line="20" />
-          <folding>
-            <element signature="e#1#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/csv_demo/classroo1.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/csv_demo/demo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/csv_demo/.idea/csv_demo.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/re_demo/gushiwen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/re_demo/demo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/json_demo/demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/csv_demo/demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/tencent_spider/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/动态渲染网页爬取/selenium的使用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/动态渲染网页爬取/执行JavaScript.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/python爬虫开发与项目实战笔记/爬虫/动态渲染网页爬取/节点交互.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -672,16 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/selenium_chorme_demo/demo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#1#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web前端开发/Javascript/代码/006提取行间事件.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -754,22 +707,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/飞机大战/plane_sprites.py">
+    <entry file="file://$PROJECT_DIR$/python_zero/飞机大战/images/enemy3_down6.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/飞机大战/images/enemy3_hit.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/飞机大战/images/enemy3_n2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/飞机大战/images/gameover.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/飞机大战/images/resume_pressed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/飞机大战/images/enemy3_down4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/飞机大战/plane_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="-70">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_zero/飞机大战/plane_main.py">
+    <entry file="file://$PROJECT_DIR$/python_zero/飞机大战/plane_sprites.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1431">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="864">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/搜索、排序和复杂度分析/single_cycle_link_list.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/scrapy_demo/douban_login/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/scrapy_demo/captcha_recognizer/captcha.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/scrapy_demo/captcha_recognizer/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/scrapy_demo/captcha_recognizer/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/scrapy_demo/qsbk/duanzi.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1428" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/scrapy_demo/qsbk/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/scrapy_demo/qsbk/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/scrapy_demo/bmw/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/scrapy_demo/wxapp/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/scrapy_demo/wxapp/wxjc.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/scrapy_demo/wxapp/wxapp/spiders/wxapp_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/thread_demo/汽车之家.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/tencent_spider/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/weather_spider/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#18#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_zero/selenium_chorme_demo/demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="e#1#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
